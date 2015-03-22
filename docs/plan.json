@@ -1,0 +1,1769 @@
+{
+  "id" : "7701384",
+  "todos" : {
+    "dobSpecified" : true,
+    "genderSpecified" : true,
+    "measurementsAdded" : true,
+    "favouriteSportsSpecified" : true,
+    "goalSpecified" : true
+  },
+  "settings" : {
+    "id" : "291688",
+    "goal" : {
+      "id" : "7666430",
+      "startDate" : "2015-02-10",
+      "endDate" : "2015-04-26",
+      "finished" : false,
+      "completion" : 0,
+      "speedGain" : 1.0433906993775175,
+      "training" : {
+        "activity" : "running",
+        "distanceM" : 21096.0,
+        "durationS" : 5462,
+        "scores" : [ ],
+        "plannedSplits" : [ ],
+        "hasTrack" : false,
+        "qComments" : 0,
+        "qPhotos" : 0
+      }
+    },
+    "vdots" : {
+      "values" : {
+        "walking" : 47.806993237046655,
+        "min" : 47.806993237046655,
+        "very_easy" : 47.806993237046655,
+        "easy" : 47.806993237046655,
+        "medium" : 47.806993237046655,
+        "threshold" : 47.806993237046655,
+        "interval" : 47.806993237046655,
+        "high" : 47.806993237046655,
+        "max" : 47.806993237046655
+      },
+      "numberOfValues" : 1,
+      "vdot" : 47.806993237046655
+    },
+    "paid" : true,
+    "activeDays" : {
+      "activitiesByDayOfWeek" : {
+        "WEDNESDAY" : "running",
+        "THURSDAY" : "running",
+        "TUESDAY" : "running",
+        "SUNDAY" : "running",
+        "SATURDAY" : "running",
+        "MONDAY" : null,
+        "FRIDAY" : null
+      },
+      "numberOfDays" : 5,
+      "sat" : "running",
+      "sun" : "running",
+      "tue" : "running",
+      "wed" : "running",
+      "thu" : "running"
+    },
+    "receiptIdentifier" : "7701384",
+    "intensity" : "medium",
+    "bestRecentTraining" : {
+      "activity" : "running",
+      "distanceM" : 10000.0,
+      "durationS" : 2580,
+      "scores" : [ ],
+      "plannedSplits" : [ ],
+      "hasTrack" : false,
+      "qComments" : 0,
+      "qPhotos" : 0
+    }
+  },
+  "statistics" : {
+    "totalDistance" : 485438.18778880546,
+    "completedDistanceM" : 109149.79196421488,
+    "totalLoad" : 465.1968524929154,
+    "totalDuration" : 151202,
+    "workouts" : 55,
+    "completedWorkouts" : 10,
+    "completedDurationS" : 34802,
+    "intensityStatistics" : {
+      "very_easy" : {
+        "durationS" : 2160,
+        "distanceM" : 5783.618420783516,
+        "load" : 6.592258583179109
+      },
+      "easy" : {
+        "durationS" : 9720,
+        "distanceM" : 30355.73952611748,
+        "load" : 65.99878179688507
+      },
+      "medium" : {
+        "durationS" : 5700,
+        "distanceM" : 20943.940590267575,
+        "load" : 90.02502664853742
+      },
+      "threshold" : {
+        "durationS" : 12240,
+        "distanceM" : 47528.285141503555,
+        "load" : 257.7496765825508
+      },
+      "interval" : {
+        "durationS" : 960,
+        "distanceM" : 4002.00174200029,
+        "load" : 29.214157366825336
+      },
+      "high" : {
+        "durationS" : 360,
+        "distanceM" : 1606.7007349428854,
+        "load" : 15.616951514937602
+      }
+    },
+    "weekStatistics" : {
+      "2015-02-09" : {
+        "totalDistance" : 50256.96341145957,
+        "completedDistanceM" : 52461.155499620625,
+        "totalLoad" : 0.0,
+        "totalDuration" : 16500,
+        "workouts" : 5,
+        "completedWorkouts" : 5,
+        "completedDurationS" : 16548,
+        "calories" : 0.0,
+        "intensityStatistics" : { }
+      },
+      "2015-02-16" : {
+        "totalDistance" : 64219.345339355656,
+        "completedDistanceM" : 26475.06834471954,
+        "totalLoad" : 0.0,
+        "totalDuration" : 21000,
+        "workouts" : 5,
+        "completedWorkouts" : 2,
+        "completedDurationS" : 8402,
+        "calories" : 0.0,
+        "intensityStatistics" : { }
+      },
+      "2015-02-23" : {
+        "totalDistance" : 34081.18692537872,
+        "completedDistanceM" : 30213.56811987472,
+        "totalLoad" : 0.0,
+        "totalDuration" : 11100,
+        "workouts" : 5,
+        "completedWorkouts" : 3,
+        "completedDurationS" : 9852,
+        "calories" : 0.0,
+        "intensityStatistics" : { }
+      },
+      "2015-03-02" : {
+        "totalDistance" : 52280.56645985538,
+        "completedDistanceM" : 0.0,
+        "totalLoad" : 59.094728472010736,
+        "totalDuration" : 16560,
+        "workouts" : 5,
+        "completedWorkouts" : 0,
+        "completedDurationS" : 0,
+        "calories" : 1236.2261037711014,
+        "intensityStatistics" : {
+          "very_easy" : {
+            "durationS" : 720,
+            "distanceM" : 1909.3552249368336,
+            "load" : 2.0877330369273963
+          },
+          "easy" : {
+            "durationS" : 1920,
+            "distanceM" : 5919.009422542197,
+            "load" : 12.1758865533204
+          },
+          "interval" : {
+            "durationS" : 960,
+            "distanceM" : 4002.00174200029,
+            "load" : 29.214157366825336
+          },
+          "high" : {
+            "durationS" : 360,
+            "distanceM" : 1606.7007349428854,
+            "load" : 15.616951514937602
+          }
+        }
+      },
+      "2015-03-09" : {
+        "totalDistance" : 73648.18752674584,
+        "completedDistanceM" : 0.0,
+        "totalLoad" : 53.18621075494609,
+        "totalDuration" : 23280,
+        "workouts" : 5,
+        "completedWorkouts" : 0,
+        "completedDurationS" : 0,
+        "calories" : 1169.1221247464762,
+        "intensityStatistics" : {
+          "very_easy" : {
+            "durationS" : 480,
+            "distanceM" : 1278.0931479890319,
+            "load" : 1.4215663825150804
+          },
+          "easy" : {
+            "durationS" : 600,
+            "distanceM" : 1857.2316865379835,
+            "load" : 3.8862797055232687
+          },
+          "threshold" : {
+            "durationS" : 2400,
+            "distanceM" : 9224.217036465363,
+            "load" : 47.878364666907736
+          }
+        }
+      },
+      "2015-03-16" : {
+        "totalDistance" : 30124.402487716085,
+        "completedDistanceM" : 0.0,
+        "totalLoad" : 81.19920020503581,
+        "totalDuration" : 8880,
+        "workouts" : 5,
+        "completedWorkouts" : 0,
+        "completedDurationS" : 0,
+        "calories" : 1797.9593686229164,
+        "intensityStatistics" : {
+          "easy" : {
+            "durationS" : 1920,
+            "distanceM" : 5967.523012399138,
+            "load" : 12.703537737280655
+          },
+          "threshold" : {
+            "durationS" : 3360,
+            "distanceM" : 12967.773827068562,
+            "load" : 68.49566246775515
+          }
+        }
+      },
+      "2015-03-23" : {
+        "totalDistance" : 39265.58082871646,
+        "completedDistanceM" : 0.0,
+        "totalLoad" : 90.16242051842895,
+        "totalDuration" : 11700,
+        "workouts" : 5,
+        "completedWorkouts" : 0,
+        "completedDurationS" : 0,
+        "calories" : 2105.2134254042257,
+        "intensityStatistics" : {
+          "very_easy" : {
+            "durationS" : 240,
+            "distanceM" : 644.3170828167956,
+            "load" : 0.7417813444130613
+          },
+          "easy" : {
+            "durationS" : 1260,
+            "distanceM" : 3932.353160585466,
+            "load" : 8.517107076236174
+          },
+          "medium" : {
+            "durationS" : 3600,
+            "distanceM" : 13185.186218232686,
+            "load" : 55.90258052556757
+          },
+          "threshold" : {
+            "durationS" : 1200,
+            "distanceM" : 4650.782250286664,
+            "load" : 25.000951572212124
+          }
+        }
+      },
+      "2015-03-30" : {
+        "totalDistance" : 50445.25973230685,
+        "completedDistanceM" : 0.0,
+        "totalLoad" : 30.456325896196624,
+        "totalDuration" : 15840,
+        "workouts" : 5,
+        "completedWorkouts" : 0,
+        "completedDurationS" : 0,
+        "calories" : 676.6106615051002,
+        "intensityStatistics" : {
+          "very_easy" : {
+            "durationS" : 240,
+            "distanceM" : 646.9933959679961,
+            "load" : 0.757934603639445
+          },
+          "easy" : {
+            "durationS" : 600,
+            "distanceM" : 1880.3271699926063,
+            "load" : 4.144084869292492
+          },
+          "threshold" : {
+            "durationS" : 1200,
+            "distanceM" : 4670.414256516299,
+            "load" : 25.554306423264688
+          }
+        }
+      },
+      "2015-04-06" : {
+        "totalDistance" : 24070.41038072777,
+        "completedDistanceM" : 0.0,
+        "totalLoad" : 62.572498634545326,
+        "totalDuration" : 7080,
+        "workouts" : 5,
+        "completedWorkouts" : 0,
+        "completedDurationS" : 0,
+        "calories" : 1461.4941381019728,
+        "intensityStatistics" : {
+          "easy" : {
+            "durationS" : 1440,
+            "distanceM" : 4531.646484108583,
+            "load" : 10.163743604041596
+          },
+          "medium" : {
+            "durationS" : 2100,
+            "distanceM" : 7758.7543720348895,
+            "load" : 34.12244612296984
+          },
+          "threshold" : {
+            "durationS" : 840,
+            "distanceM" : 3283.172366880707,
+            "load" : 18.286308907533893
+          }
+        }
+      },
+      "2015-04-13" : {
+        "totalDistance" : 28738.62452721611,
+        "completedDistanceM" : 0.0,
+        "totalLoad" : 63.656674855428435,
+        "totalDuration" : 8580,
+        "workouts" : 5,
+        "completedWorkouts" : 0,
+        "completedDurationS" : 0,
+        "calories" : 1376.314256264597,
+        "intensityStatistics" : {
+          "very_easy" : {
+            "durationS" : 480,
+            "distanceM" : 1304.8595690728575,
+            "load" : 1.5832432156841263
+          },
+          "easy" : {
+            "durationS" : 1200,
+            "distanceM" : 3792.253392450245,
+            "load" : 8.656544011873253
+          },
+          "threshold" : {
+            "durationS" : 2400,
+            "distanceM" : 9420.561344004585,
+            "load" : 53.416887627871056
+          }
+        }
+      },
+      "2015-04-20" : {
+        "totalDistance" : 38307.66016932692,
+        "completedDistanceM" : 0.0,
+        "totalLoad" : 24.868793156323378,
+        "totalDuration" : 10682,
+        "workouts" : 5,
+        "completedWorkouts" : 0,
+        "completedDurationS" : 0,
+        "calories" : 548.057397901248,
+        "intensityStatistics" : {
+          "easy" : {
+            "durationS" : 780,
+            "distanceM" : 2475.3951975012615,
+            "load" : 5.751598239317228
+          },
+          "threshold" : {
+            "durationS" : 840,
+            "distanceM" : 3311.3640602813743,
+            "load" : 19.11719491700615
+          }
+        }
+      }
+    }
+  },
+  "user" : {
+    "id" : "120",
+    "name" : "Denis Blinov",
+    "login" : "denbl",
+    "picture" : "pic_f105874c-0ad9-466c-8291-f91cba414aac",
+    "qTrainings" : 609,
+    "followed" : false,
+    "title" : "runner"
+  },
+  "periods" : [ {
+    "typeInfo" : "choose_by_points",
+    "id" : "planning_profile_running_marathon_final_stage",
+    "description" : "The Final Phase is less stressful than the previous one — your week-by-week distance is coming down and you're  preparing for the final run.\n\nWorkouts are almost the same to the ones in the previous phase, and you're going to feel better during and after the runs, because you're more accustomed and prepared for such trainings.",
+    "title" : "Final phase"
+  }, {
+    "typeInfo" : "choose_by_points",
+    "id" : "planning_profile_running_marathon_early_stage",
+    "description" : "This phase is a link between pretty easy previous phase and the most stressful phase that's coming. So its goal is to prepare your body for more exhausting runs in the future.\n\nThis means you'll have some already known steady runs and some new interval running sessions — it means you should change your pace regularly during trainings. Interval runs are important because they are designed to build up your endurance and allow an adjustment to faster running.",
+    "title" : "General"
+  }, {
+    "typeInfo" : "choose_by_points",
+    "id" : "planning_profile_running_marathon_transition_stage",
+    "description" : "This is the most stressful, the most difficult and the most demanding phase of your plan. The early phases were designed to build a base and prepare your body for this one — now you’re fit and ready for increasing load and intensity of your runs.\n\nYour week-by-week distance is smoothly increasing, you'll have longer and faster runs, you'll have more demanding marathon-pace workouts — it's going to be tough but you're training for this so you can do it.",
+    "title" : "Main phase"
+  }, {
+    "typeInfo" : "choose_by_points",
+    "id" : "planning_profile_running_marathon_base_period",
+    "description" : "This phase is a fundamental one for every runner — you'll smoothly increase your week-by-week running distance of steady, easy running.\n\nYour main goal is to is to get comfortable with steady, easy running and with long runs of an hour or even more. So the workouts are designed for foundation work and will help you strengthen your body to prevent injuries.",
+    "title" : "Building up"
+  } ],
+  "trainings" : [ {
+    "date" : "2015-02-10",
+    "activity" : "running",
+    "description" : "General workout of this phase. You should focus on keeping the planned pace all the time — please, avoid running faster at the beginning and then slowing down or vice versa.\n\nWe know you can run faster but the training is specially designed to be that easy. So relax, run easy and enjoy every stride.",
+    "periodId" : "planning_profile_running_marathon_base_period",
+    "completion" : 100,
+    "completedTrainings" : [ {
+      "id" : "2000250035",
+      "activity" : "running",
+      "distanceM" : 10663.0090546819,
+      "durationS" : 3319,
+      "kCalories" : 939,
+      "date" : "2015-02-10T13:23:56.000+0000",
+      "intensity" : "medium",
+      "comments" : [ {
+        "id" : "800003959",
+        "comment" : "Денис, приветствую. Хорошая тренировка! Я вот тоже сегодня десяточку пробежал, только помедленнее (10,5 км  вместе с беговой разминкой, после которой включил Вашу программу). Спасибо огромное за неё, потихоньку осваиваю. 26 апреля хочу пробежать полумарафон за 2 часа. Бегаю давно, но уже, скорости не те, что раньше были. ;)",
+        "date" : "2015-02-10T18:07:05.000+0000"
+      }, {
+        "id" : "800003961",
+        "comment" : "У меня айпад, поэтому пользуюсь также и прогой RunKeeper. Бегу по вашим планам пока легко, без малейшего напряга, фоткаю по дороге. Сегодня еле от собак отвязался (там, на графике у меня на том километре 8:32). Веду 2 блога, если заинтересует, один  о беге - http://begom-k-zdorovyu.ru",
+        "date" : "2015-02-10T18:18:44.000+0000"
+      } ],
+      "scores" : [ {
+        "value" : 1,
+        "key" : "training_score",
+        "description" : "Training score",
+        "name" : "Training score"
+      }, {
+        "value" : 3,
+        "key" : "training_distance",
+        "description" : "Training distance is 10.6 km",
+        "name" : "Training distance"
+      } ],
+      "plannedSplits" : [ {
+        "plannedDistanceM" : 10051.392682291913,
+        "plannedDurationS" : 3300.0,
+        "distanceM" : 10598.962288615054,
+        "durationS" : 3298.0
+      } ],
+      "hasTrack" : true,
+      "maxAltitudeM" : 178.029297,
+      "minAltitudeM" : 149.218689,
+      "qComments" : 0,
+      "qPhotos" : 0,
+      "routePicture" : "pic_acbb88c5-5aef-47bb-b41b-3093af65b8bd",
+      "status" : "finished"
+    } ],
+    "trainingLoad" : 0.0,
+    "distanceM" : 10051.392682291913,
+    "durationS" : 3300,
+    "kCalories" : 662,
+    "intervalType" : "easy"
+  }, {
+    "date" : "2015-02-11",
+    "activity" : "running",
+    "description" : "General workout of this phase. You should focus on keeping the planned pace all the time — please, avoid running faster at the beginning and then slowing down or vice versa.\n\nWe know you can run faster but the training is specially designed to be that easy. So relax, run easy and enjoy every stride.",
+    "periodId" : "planning_profile_running_marathon_base_period",
+    "completion" : 100,
+    "completedTrainings" : [ {
+      "id" : "2000253759",
+      "activity" : "running",
+      "distanceM" : 10492.20944315539,
+      "durationS" : 3306,
+      "kCalories" : 892,
+      "date" : "2015-02-12T08:04:49.000+0000",
+      "intensity" : "medium",
+      "comments" : [ ],
+      "scores" : [ {
+        "value" : 1,
+        "key" : "training_score",
+        "description" : "Training score",
+        "name" : "Training score"
+      }, {
+        "value" : 3,
+        "key" : "training_distance",
+        "description" : "Training distance is 10.4 km",
+        "name" : "Training distance"
+      } ],
+      "plannedSplits" : [ {
+        "plannedDistanceM" : 10051.392682291913,
+        "plannedDurationS" : 3300.0,
+        "distanceM" : 10472.703178141726,
+        "durationS" : 3300.0
+      } ],
+      "hasTrack" : true,
+      "maxAltitudeM" : 189.596619,
+      "minAltitudeM" : 144.292603,
+      "qComments" : 0,
+      "qPhotos" : 0,
+      "routePicture" : "pic_7c410850-ee62-432a-9119-33f2605c0b33",
+      "status" : "finished"
+    } ],
+    "trainingLoad" : 0.0,
+    "distanceM" : 10051.392682291913,
+    "durationS" : 3300,
+    "intervalType" : "easy"
+  }, {
+    "date" : "2015-02-12",
+    "activity" : "running",
+    "description" : "General workout of this phase. You should focus on keeping the planned pace all the time — please, avoid running faster at the beginning and then slowing down or vice versa.\n\nWe know you can run faster but the training is specially designed to be that easy. So relax, run easy and enjoy every stride.",
+    "periodId" : "planning_profile_running_marathon_base_period",
+    "completion" : 100,
+    "completedTrainings" : [ {
+      "id" : "2000256736",
+      "activity" : "running",
+      "distanceM" : 10392.334430666811,
+      "durationS" : 3310,
+      "kCalories" : 870,
+      "date" : "2015-02-13T19:32:57.000+0000",
+      "intensity" : "medium",
+      "comments" : [ ],
+      "scores" : [ {
+        "value" : 1,
+        "key" : "training_score",
+        "description" : "Training score",
+        "name" : "Training score"
+      }, {
+        "value" : 3,
+        "key" : "training_distance",
+        "description" : "Training distance is 10.3 km",
+        "name" : "Training distance"
+      } ],
+      "plannedSplits" : [ {
+        "plannedDistanceM" : 10051.392682291913,
+        "plannedDurationS" : 3300.0,
+        "distanceM" : 10360.595904506834,
+        "durationS" : 3300.0
+      } ],
+      "hasTrack" : true,
+      "maxAltitudeM" : 180.45813,
+      "minAltitudeM" : 153.025269,
+      "qComments" : 0,
+      "qPhotos" : 0,
+      "routePicture" : "pic_93d88c89-27c8-421b-80c8-1d5add200d8f",
+      "status" : "finished"
+    } ],
+    "trainingLoad" : 0.0,
+    "distanceM" : 10051.392682291913,
+    "durationS" : 3300,
+    "intervalType" : "easy"
+  }, {
+    "date" : "2015-02-14",
+    "activity" : "running",
+    "description" : "General workout of this phase. You should focus on keeping the planned pace all the time — please, avoid running faster at the beginning and then slowing down or vice versa.\n\nWe know you can run faster but the training is specially designed to be that easy. So relax, run easy and enjoy every stride.",
+    "periodId" : "planning_profile_running_marathon_base_period",
+    "completion" : 100,
+    "completedTrainings" : [ {
+      "id" : "2000261279",
+      "activity" : "running",
+      "distanceM" : 10710.55553971557,
+      "durationS" : 3308,
+      "kCalories" : 926,
+      "date" : "2015-02-16T12:15:28.000+0000",
+      "intensity" : "medium",
+      "comments" : [ ],
+      "scores" : [ {
+        "value" : 1,
+        "key" : "training_score",
+        "description" : "Training score",
+        "name" : "Training score"
+      }, {
+        "value" : 3,
+        "key" : "training_distance",
+        "description" : "Training distance is 10.7 km",
+        "name" : "Training distance"
+      } ],
+      "plannedSplits" : [ {
+        "plannedDistanceM" : 10051.392682291913,
+        "plannedDurationS" : 3300.0,
+        "distanceM" : 10686.507270506212,
+        "durationS" : 3300.0
+      } ],
+      "hasTrack" : true,
+      "maxAltitudeM" : 179.806519,
+      "minAltitudeM" : 156.388062,
+      "qComments" : 0,
+      "qPhotos" : 0,
+      "routePicture" : "pic_1e8e3a5b-03b9-424d-95a4-710e3498af9b",
+      "status" : "finished"
+    } ],
+    "trainingLoad" : 0.0,
+    "distanceM" : 10051.392682291913,
+    "durationS" : 3300,
+    "intervalType" : "easy"
+  }, {
+    "date" : "2015-02-15",
+    "activity" : "running",
+    "description" : "General workout of this phase. You should focus on keeping the planned pace all the time — please, avoid running faster at the beginning and then slowing down or vice versa.\n\nWe know you can run faster but the training is specially designed to be that easy. So relax, run easy and enjoy every stride.",
+    "periodId" : "planning_profile_running_marathon_base_period",
+    "completion" : 100,
+    "completedTrainings" : [ {
+      "id" : "2000276707",
+      "activity" : "running",
+      "distanceM" : 10203.04703140096,
+      "durationS" : 3305,
+      "kCalories" : 840,
+      "date" : "2015-02-24T17:54:56.000+0000",
+      "intensity" : "medium",
+      "comments" : [ ],
+      "scores" : [ {
+        "value" : 1,
+        "key" : "training_score",
+        "description" : "Training score",
+        "name" : "Training score"
+      }, {
+        "value" : 3,
+        "key" : "training_distance",
+        "description" : "Training distance is 10.2 km",
+        "name" : "Training distance"
+      } ],
+      "plannedSplits" : [ {
+        "plannedDistanceM" : 10051.392682291913,
+        "plannedDurationS" : 3300.0,
+        "distanceM" : 10186.897930365049,
+        "durationS" : 3300.0
+      } ],
+      "hasTrack" : true,
+      "maxAltitudeM" : 173.94458,
+      "minAltitudeM" : 149.332397,
+      "qComments" : 0,
+      "qPhotos" : 0,
+      "routePicture" : "pic_7107bfe4-4726-4b08-b8d5-17d05abe24e5",
+      "status" : "finished"
+    } ],
+    "trainingLoad" : 0.0,
+    "distanceM" : 10051.392682291913,
+    "durationS" : 3300,
+    "intervalType" : "easy"
+  }, {
+    "date" : "2015-02-17",
+    "activity" : "running",
+    "description" : "General workout of this phase. You should focus on keeping the planned pace all the time — please, avoid running faster at the beginning and then slowing down or vice versa.\n\nWe know you can run faster but the training is specially designed to be that easy. So relax, run easy and enjoy every stride.",
+    "periodId" : "planning_profile_running_marathon_base_period",
+    "completion" : 100,
+    "completedTrainings" : [ {
+      "id" : "2000267248",
+      "activity" : "running",
+      "distanceM" : 13355.26792579028,
+      "durationS" : 4207,
+      "kCalories" : 1144,
+      "date" : "2015-02-19T07:51:16.000+0000",
+      "intensity" : "medium",
+      "comments" : [ ],
+      "scores" : [ {
+        "value" : 1,
+        "key" : "training_score",
+        "description" : "Training score",
+        "name" : "Training score"
+      }, {
+        "value" : 2,
+        "key" : "training_duration",
+        "description" : "Training is longer than an hour",
+        "name" : "Training duration"
+      }, {
+        "value" : 3,
+        "key" : "training_calories",
+        "description" : "Training caloricity is more than 1000",
+        "name" : "Training calories"
+      }, {
+        "value" : 4,
+        "key" : "training_distance",
+        "description" : "Training distance is 13.3 km",
+        "name" : "Training distance"
+      } ],
+      "plannedSplits" : [ {
+        "plannedDistanceM" : 12843.869067871132,
+        "plannedDurationS" : 4200.0,
+        "distanceM" : 13322.833784679335,
+        "durationS" : 4200.0
+      } ],
+      "hasTrack" : true,
+      "maxAltitudeM" : 188.74762,
+      "minAltitudeM" : 148.787659,
+      "qComments" : 0,
+      "qPhotos" : 0,
+      "routePicture" : "pic_4e59ec17-1e37-4130-9fe8-aea2a45b7d60",
+      "status" : "finished"
+    } ],
+    "trainingLoad" : 0.0,
+    "distanceM" : 12843.869067871132,
+    "durationS" : 4200,
+    "intervalType" : "easy"
+  }, {
+    "date" : "2015-02-18",
+    "activity" : "running",
+    "description" : "General workout of this phase. You should focus on keeping the planned pace all the time — please, avoid running faster at the beginning and then slowing down or vice versa.\n\nWe know you can run faster but the training is specially designed to be that easy. So relax, run easy and enjoy every stride.",
+    "periodId" : "planning_profile_running_marathon_base_period",
+    "completion" : 99,
+    "completedTrainings" : [ {
+      "id" : "2000286398",
+      "activity" : "running",
+      "distanceM" : 13119.800418929262,
+      "durationS" : 4195,
+      "kCalories" : 1099,
+      "date" : "2015-03-01T20:24:57.000+0000",
+      "intensity" : "medium",
+      "comments" : [ {
+        "id" : "800004635",
+        "comment" : "Денис, мне очень нравится gipis, но в последнее время он нещадно врет. Бегаешь 25 минут, после загрузки результата получается 21 минута. Так как расстояние такое же , то скорость тоже пересчитывается. Как поправить?",
+        "date" : "2015-03-04T05:51:45.000+0000"
+      } ],
+      "scores" : [ {
+        "value" : 1,
+        "key" : "training_score",
+        "description" : "Training score",
+        "name" : "Training score"
+      }, {
+        "value" : 2,
+        "key" : "training_duration",
+        "description" : "Training is longer than an hour",
+        "name" : "Training duration"
+      }, {
+        "value" : 3,
+        "key" : "training_calories",
+        "description" : "Training caloricity is more than 1000",
+        "name" : "Training calories"
+      }, {
+        "value" : 4,
+        "key" : "training_distance",
+        "description" : "Training distance is 13.1 km",
+        "name" : "Training distance"
+      } ],
+      "plannedSplits" : [ {
+        "plannedDistanceM" : 12843.869067871132,
+        "plannedDurationS" : 4200.0,
+        "distanceM" : 13119.800418929262,
+        "durationS" : 4195.0
+      } ],
+      "hasTrack" : true,
+      "maxAltitudeM" : 187.456177,
+      "minAltitudeM" : 145.909363,
+      "qComments" : 0,
+      "qPhotos" : 0,
+      "routePicture" : "pic_be4230c8-8b76-490d-b124-e0be2e9f3e26",
+      "status" : "finished"
+    } ],
+    "trainingLoad" : 0.0,
+    "distanceM" : 12843.869067871132,
+    "durationS" : 4200,
+    "intervalType" : "easy"
+  }, {
+    "date" : "2015-02-19",
+    "activity" : "running",
+    "description" : "General workout of this phase. You should focus on keeping the planned pace all the time — please, avoid running faster at the beginning and then slowing down or vice versa.\n\nWe know you can run faster but the training is specially designed to be that easy. So relax, run easy and enjoy every stride.",
+    "periodId" : "planning_profile_running_marathon_base_period",
+    "completion" : 0,
+    "completedTrainings" : [ ],
+    "trainingLoad" : 0.0,
+    "distanceM" : 12843.869067871132,
+    "durationS" : 4200,
+    "intervalType" : "easy"
+  }, {
+    "date" : "2015-02-21",
+    "activity" : "running",
+    "description" : "General workout of this phase. You should focus on keeping the planned pace all the time — please, avoid running faster at the beginning and then slowing down or vice versa.\n\nWe know you can run faster but the training is specially designed to be that easy. So relax, run easy and enjoy every stride.",
+    "periodId" : "planning_profile_running_marathon_base_period",
+    "completion" : 0,
+    "completedTrainings" : [ ],
+    "trainingLoad" : 0.0,
+    "distanceM" : 12843.869067871132,
+    "durationS" : 4200,
+    "intervalType" : "easy"
+  }, {
+    "date" : "2015-02-22",
+    "activity" : "running",
+    "description" : "General workout of this phase. You should focus on keeping the planned pace all the time — please, avoid running faster at the beginning and then slowing down or vice versa.\n\nWe know you can run faster but the training is specially designed to be that easy. So relax, run easy and enjoy every stride.",
+    "periodId" : "planning_profile_running_marathon_base_period",
+    "completion" : 0,
+    "completedTrainings" : [ ],
+    "trainingLoad" : 0.0,
+    "distanceM" : 12843.869067871132,
+    "durationS" : 4200,
+    "intervalType" : "easy"
+  }, {
+    "date" : "2015-02-24",
+    "activity" : "running",
+    "description" : "General workout of this phase. You should focus on keeping the planned pace all the time — please, avoid running faster at the beginning and then slowing down or vice versa.\n\nWe know you can run faster but the training is specially designed to be that easy. So relax, run easy and enjoy every stride.",
+    "periodId" : "planning_profile_running_marathon_base_period",
+    "completion" : 100,
+    "completedTrainings" : [ {
+      "id" : "2000278986",
+      "activity" : "running",
+      "distanceM" : 5711.644881362526,
+      "durationS" : 1801,
+      "kCalories" : 481,
+      "date" : "2015-02-25T18:38:16.000+0000",
+      "intensity" : "medium",
+      "comments" : [ {
+        "id" : "800004576",
+        "comment" : "牛逼d(^_^o)",
+        "date" : "2015-03-02T02:49:53.000+0000"
+      }, {
+        "id" : "800004577",
+        "comment" : "嘿嘿嘿",
+        "date" : "2015-03-02T02:49:58.000+0000"
+      } ],
+      "scores" : [ {
+        "value" : 1,
+        "key" : "training_score",
+        "description" : "Training score",
+        "name" : "Training score"
+      }, {
+        "value" : 1,
+        "key" : "training_distance",
+        "description" : "Training distance is 5.7 km",
+        "name" : "Training distance"
+      } ],
+      "plannedSplits" : [ {
+        "plannedDistanceM" : 5526.678960872225,
+        "plannedDurationS" : 1800.0,
+        "distanceM" : 5702.6881309492555,
+        "durationS" : 1797.0
+      } ],
+      "hasTrack" : true,
+      "maxAltitudeM" : 177.327148,
+      "minAltitudeM" : 153.251221,
+      "qComments" : 0,
+      "qPhotos" : 0,
+      "routePicture" : "pic_6df1559c-003f-4de4-89f0-90d8b3cc22bf",
+      "status" : "finished"
+    } ],
+    "trainingLoad" : 0.0,
+    "distanceM" : 5526.678960872225,
+    "durationS" : 1800,
+    "intervalType" : "easy"
+  }, {
+    "date" : "2015-02-25",
+    "activity" : "running",
+    "description" : "General workout of this phase. You should focus on keeping the planned pace all the time — please, avoid running faster at the beginning and then slowing down or vice versa.\n\nWe know you can run faster but the training is specially designed to be that easy. So relax, run easy and enjoy every stride.",
+    "periodId" : "planning_profile_running_marathon_base_period",
+    "completion" : 100,
+    "completedTrainings" : [ {
+      "id" : "2000279020",
+      "activity" : "running",
+      "distanceM" : 5539.227394232786,
+      "durationS" : 1801,
+      "kCalories" : 455,
+      "date" : "2015-02-25T19:08:47.000+0000",
+      "intensity" : "medium",
+      "comments" : [ {
+        "id" : "800004575",
+        "comment" : "牛逼\n",
+        "date" : "2015-03-02T02:49:42.000+0000"
+      } ],
+      "scores" : [ {
+        "value" : 1,
+        "key" : "training_score",
+        "description" : "Training score",
+        "name" : "Training score"
+      }, {
+        "value" : 3,
+        "key" : "overall_time_score",
+        "description" : "Overall trainings duration is more than 100 hours",
+        "name" : "Overall training duration"
+      }, {
+        "value" : 1,
+        "key" : "training_distance",
+        "description" : "Training distance is 5.5 km",
+        "name" : "Training distance"
+      } ],
+      "plannedSplits" : [ {
+        "plannedDistanceM" : 5526.678960872225,
+        "plannedDurationS" : 1800.0,
+        "distanceM" : 5536.810134820979,
+        "durationS" : 1800.0
+      } ],
+      "hasTrack" : true,
+      "maxAltitudeM" : 170.779053,
+      "minAltitudeM" : 144.831482,
+      "qComments" : 0,
+      "qPhotos" : 0,
+      "routePicture" : "pic_339b8996-ebac-488b-9fde-0bb4adf74cce",
+      "status" : "finished"
+    } ],
+    "trainingLoad" : 0.0,
+    "distanceM" : 5526.678960872225,
+    "durationS" : 1800,
+    "intervalType" : "easy"
+  }, {
+    "date" : "2015-02-26",
+    "activity" : "running",
+    "description" : "General workout of this phase. You should focus on keeping the planned pace all the time — please, avoid running faster at the beginning and then slowing down or vice versa.\n\nWe know you can run faster but the training is specially designed to be that easy. So relax, run easy and enjoy every stride.",
+    "periodId" : "planning_profile_running_marathon_base_period",
+    "completion" : 0,
+    "completedTrainings" : [ ],
+    "trainingLoad" : 0.0,
+    "distanceM" : 3684.4526405814836,
+    "durationS" : 1200,
+    "intervalType" : "easy"
+  }, {
+    "date" : "2015-02-28",
+    "activity" : "running",
+    "description" : "General workout of this phase. You should focus on keeping the planned pace all the time — please, avoid running faster at the beginning and then slowing down or vice versa.\n\nWe know you can run faster but the training is specially designed to be that easy. So relax, run easy and enjoy every stride.",
+    "periodId" : "planning_profile_running_marathon_base_period",
+    "completion" : 0,
+    "completedTrainings" : [ ],
+    "trainingLoad" : 0.0,
+    "distanceM" : 3684.4526405814836,
+    "durationS" : 1200,
+    "intervalType" : "easy"
+  }, {
+    "date" : "2015-03-01",
+    "activity" : "running",
+    "description" : "This long run is designed to build up your endurance.\n\nIt’s based on the duration rather than on the distance so try to keep the planned pace and don't push yourself too hard — you shouldn’t feel too tired after the run.",
+    "periodId" : "planning_profile_running_marathon_base_period",
+    "completion" : 122,
+    "completedTrainings" : [ {
+      "id" : "2000325892",
+      "activity" : "running",
+      "distanceM" : 18962.695844279406,
+      "durationS" : 6250,
+      "kCalories" : 1550,
+      "date" : "2015-03-21T04:51:45.000+0000",
+      "intensity" : "medium",
+      "comments" : [ ],
+      "scores" : [ {
+        "value" : 1,
+        "key" : "training_score",
+        "description" : "Training score",
+        "name" : "Training score"
+      }, {
+        "value" : 2,
+        "key" : "training_duration",
+        "description" : "Training is longer than an hour",
+        "name" : "Training duration"
+      }, {
+        "value" : 3,
+        "key" : "training_calories",
+        "description" : "Training caloricity is more than 1000",
+        "name" : "Training calories"
+      }, {
+        "value" : 6,
+        "key" : "training_distance",
+        "description" : "Training distance is 18.9 km",
+        "name" : "Training distance"
+      } ],
+      "plannedSplits" : [ {
+        "plannedDistanceM" : 15658.923722471305,
+        "plannedDurationS" : 5100.0,
+        "distanceM" : 14200.859893457731,
+        "durationS" : 4716.0
+      } ],
+      "hasTrack" : true,
+      "maxAltitudeM" : 183.572388,
+      "minAltitudeM" : 145.329102,
+      "qComments" : 0,
+      "qPhotos" : 0,
+      "routePicture" : "pic_e556e458-67ef-4e0a-af48-b875e2d8deec",
+      "status" : "finished"
+    } ],
+    "trainingLoad" : 0.0,
+    "distanceM" : 15658.923722471305,
+    "durationS" : 5100,
+    "intervalType" : "easy"
+  }, {
+    "date" : "2015-03-03",
+    "activity" : "running",
+    "description" : "A short workout with intervals of your fastest running — its goal is to maintain your speed. The workout might be kind of exhausting so try to do your best during the final reps to keep the right pace.",
+    "periodId" : "planning_profile_running_marathon_early_stage",
+    "completion" : 0,
+    "completedTrainings" : [ ],
+    "trainingLoad" : 20.060262151643375,
+    "distanceM" : 5365.746404424156,
+    "durationS" : 1680,
+    "segments" : [ {
+      "reps" : 1,
+      "value" : [ {
+        "speedMPS" : 3.082817407574061,
+        "durationS" : 300,
+        "points" : [ ],
+        "intensity" : "easy"
+      } ]
+    }, {
+      "reps" : 6,
+      "value" : [ {
+        "speedMPS" : 4.46305759706357,
+        "durationS" : 60,
+        "points" : [ ],
+        "intensity" : "high"
+      }, {
+        "speedMPS" : 2.6518822568567133,
+        "durationS" : 120,
+        "points" : [ ],
+        "intensity" : "very_easy"
+      } ]
+    }, {
+      "reps" : 1,
+      "value" : [ {
+        "speedMPS" : 3.082817407574061,
+        "durationS" : 300,
+        "points" : [ ],
+        "intensity" : "easy"
+      } ]
+    } ],
+    "intervalType" : "high"
+  }, {
+    "date" : "2015-03-04",
+    "activity" : "running",
+    "description" : "An easy recovery run. Don’t push yourself — you can run faster but it’s the time to relax. You’ve been working really hard lately, so have a break.\n\nRelax, run easy and enjoy the scenery.",
+    "periodId" : "planning_profile_running_marathon_early_stage",
+    "completion" : 0,
+    "completedTrainings" : [ ],
+    "trainingLoad" : 0.0,
+    "distanceM" : 5549.07133363331,
+    "durationS" : 1800,
+    "intervalType" : "easy"
+  }, {
+    "date" : "2015-03-05",
+    "activity" : "running",
+    "description" : "Exhausting workout that includes really fast interval running. It’s designed to stress your body to its limits and reach maximum oxygen consumption.\n\nIt might be really difficult but you can do it — try to do your best to keep the planned pace.",
+    "periodId" : "planning_profile_running_marathon_early_stage",
+    "completion" : 0,
+    "completedTrainings" : [ ],
+    "trainingLoad" : 35.05248001489318,
+    "distanceM" : 8071.320719998051,
+    "durationS" : 2280,
+    "segments" : [ {
+      "reps" : 1,
+      "value" : [ {
+        "speedMPS" : 3.082817407574061,
+        "durationS" : 300,
+        "points" : [ ],
+        "intensity" : "easy"
+      } ]
+    }, {
+      "reps" : 4,
+      "value" : [ {
+        "speedMPS" : 4.1687518145836355,
+        "durationS" : 240,
+        "points" : [ ],
+        "intensity" : "interval"
+      }, {
+        "speedMPS" : 3.082817407574061,
+        "durationS" : 180,
+        "points" : [ ],
+        "intensity" : "easy"
+      } ]
+    }, {
+      "reps" : 1,
+      "value" : [ {
+        "speedMPS" : 3.082817407574061,
+        "durationS" : 300,
+        "points" : [ ],
+        "intensity" : "easy"
+      } ]
+    } ],
+    "intervalType" : "interval"
+  }, {
+    "date" : "2015-03-07",
+    "activity" : "running",
+    "description" : "An easy recovery run. Don’t push yourself — you can run faster but it’s the time to relax. You’ve been working really hard lately, so have a break.\n\nRelax, run easy and enjoy the scenery.",
+    "periodId" : "planning_profile_running_marathon_early_stage",
+    "completion" : 0,
+    "completedTrainings" : [ ],
+    "trainingLoad" : 0.0,
+    "distanceM" : 5549.07133363331,
+    "durationS" : 1800,
+    "intervalType" : "easy"
+  }, {
+    "date" : "2015-03-08",
+    "activity" : "running",
+    "description" : "General workout of this phase that is designed to build up your endurance.\n\nIt’s based on the duration rather than on the distance so try to keep the planned pace and don't push yourself too hard — you shouldn’t feel too tired after the run.",
+    "periodId" : "planning_profile_running_marathon_early_stage",
+    "completion" : 0,
+    "completedTrainings" : [ ],
+    "trainingLoad" : 0.0,
+    "distanceM" : 27745.35666816655,
+    "durationS" : 9000,
+    "intervalType" : "easy"
+  }, {
+    "date" : "2015-03-10",
+    "activity" : "running",
+    "description" : "An easy recovery run. Don’t push yourself — you can run faster but it’s the time to relax. You’ve been working really hard lately, so have a break.\n\nRelax, run easy and enjoy the scenery.",
+    "periodId" : "planning_profile_running_marathon_transition_stage",
+    "completion" : 0,
+    "completedTrainings" : [ ],
+    "trainingLoad" : 0.0,
+    "distanceM" : 7428.926746151934,
+    "durationS" : 2400,
+    "intervalType" : "easy"
+  }, {
+    "date" : "2015-03-11",
+    "activity" : "running",
+    "description" : "An easy recovery run. Don’t push yourself — you can run faster but it’s the time to relax. You’ve been working really hard lately, so have a break.\n\nRelax, run easy and enjoy the scenery.",
+    "periodId" : "planning_profile_running_marathon_transition_stage",
+    "completion" : 0,
+    "completedTrainings" : [ ],
+    "trainingLoad" : 0.0,
+    "distanceM" : 7428.926746151934,
+    "durationS" : 2400,
+    "intervalType" : "easy"
+  }, {
+    "date" : "2015-03-12",
+    "activity" : "running",
+    "description" : "The first type of complementary workouts with one long interval of fast running — like a general one, it’s designed to build up your endurance as well as your speed and increase your lactate threshold. Try to do your best to keep the planned pace.",
+    "periodId" : "planning_profile_running_marathon_transition_stage",
+    "completion" : 0,
+    "completedTrainings" : [ ],
+    "trainingLoad" : 48.45207389040238,
+    "distanceM" : 12359.541870992378,
+    "durationS" : 3480,
+    "segments" : [ {
+      "reps" : 1,
+      "value" : [ {
+        "speedMPS" : 3.0953861442299724,
+        "durationS" : 300,
+        "points" : [ ],
+        "intensity" : "easy"
+      } ]
+    }, {
+      "reps" : 2,
+      "value" : [ {
+        "speedMPS" : 3.843423765193901,
+        "durationS" : 1200,
+        "points" : [ ],
+        "intensity" : "threshold"
+      }, {
+        "speedMPS" : 2.6626940583104832,
+        "durationS" : 240,
+        "points" : [ ],
+        "intensity" : "very_easy"
+      } ]
+    }, {
+      "reps" : 1,
+      "value" : [ {
+        "speedMPS" : 3.0953861442299724,
+        "durationS" : 300,
+        "points" : [ ],
+        "intensity" : "easy"
+      } ]
+    } ],
+    "intervalType" : "threshold"
+  }, {
+    "date" : "2015-03-14",
+    "activity" : "running",
+    "description" : "An easy recovery run. Don’t push yourself — you can run faster but it’s the time to relax. You’ve been working really hard lately, so have a break.\n\nRelax, run easy and enjoy the scenery.",
+    "periodId" : "planning_profile_running_marathon_transition_stage",
+    "completion" : 0,
+    "completedTrainings" : [ ],
+    "trainingLoad" : 0.0,
+    "distanceM" : 7428.926746151934,
+    "durationS" : 2400,
+    "intervalType" : "easy"
+  }, {
+    "date" : "2015-03-15",
+    "activity" : "running",
+    "description" : "The first type of general workouts of this phase that is designed to build up your endurance.\n\nIt’s based on the duration rather than on the distance so try to keep the planned pace and don't push yourself too hard — you shouldn’t feel too tired after the run.",
+    "periodId" : "planning_profile_running_marathon_transition_stage",
+    "completion" : 0,
+    "completedTrainings" : [ ],
+    "trainingLoad" : 0.0,
+    "distanceM" : 39001.86541729765,
+    "durationS" : 12600,
+    "intervalType" : "easy"
+  }, {
+    "date" : "2015-03-17",
+    "activity" : "running",
+    "description" : "An easy recovery run. Don’t push yourself — you can run faster but it’s the time to relax. You’ve been working really hard lately, so have a break.\n\nRelax, run easy and enjoy the scenery.",
+    "periodId" : "planning_profile_running_marathon_transition_stage",
+    "completion" : 0,
+    "completedTrainings" : [ ],
+    "trainingLoad" : 0.0,
+    "distanceM" : 3729.7018827494608,
+    "durationS" : 1200,
+    "intervalType" : "easy"
+  }, {
+    "date" : "2015-03-18",
+    "activity" : "running",
+    "description" : "An easy recovery run. Don’t push yourself — you can run faster but it’s the time to relax. You’ve been working really hard lately, so have a break.\n\nRelax, run easy and enjoy the scenery.",
+    "periodId" : "planning_profile_running_marathon_transition_stage",
+    "completion" : 0,
+    "completedTrainings" : [ ],
+    "trainingLoad" : 0.0,
+    "distanceM" : 3729.7018827494608,
+    "durationS" : 1200,
+    "intervalType" : "easy"
+  }, {
+    "date" : "2015-03-19",
+    "activity" : "running",
+    "description" : "The second type of complementary workouts with a few intervals of fast running  — like a general one, it’s designed to build up your endurance as well as your speed and increase your lactate threshold. Try to do your best to keep the planned pace.",
+    "periodId" : "planning_profile_running_marathon_transition_stage",
+    "completion" : 0,
+    "completedTrainings" : [ ],
+    "trainingLoad" : 19.82825446510059,
+    "distanceM" : 5666.2496805542905,
+    "durationS" : 1620,
+    "segments" : [ {
+      "reps" : 1,
+      "value" : [ {
+        "speedMPS" : 3.108084902291217,
+        "durationS" : 300,
+        "points" : [ ],
+        "intensity" : "easy"
+      } ]
+    }, {
+      "reps" : 2,
+      "value" : [ {
+        "speedMPS" : 3.859456496151358,
+        "durationS" : 420,
+        "points" : [ ],
+        "intensity" : "threshold"
+      }, {
+        "speedMPS" : 3.1080849022912176,
+        "durationS" : 90,
+        "points" : [ ],
+        "intensity" : "easy"
+      } ]
+    }, {
+      "reps" : 1,
+      "value" : [ {
+        "speedMPS" : 3.108084902291217,
+        "durationS" : 300,
+        "points" : [ ],
+        "intensity" : "easy"
+      } ]
+    } ],
+    "intervalType" : "threshold"
+  }, {
+    "date" : "2015-03-21",
+    "activity" : "running",
+    "description" : "An easy recovery run. Don’t push yourself — you can run faster but it’s the time to relax. You’ve been working really hard lately, so have a break.\n\nRelax, run easy and enjoy the scenery.",
+    "periodId" : "planning_profile_running_marathon_transition_stage",
+    "completion" : 0,
+    "completedTrainings" : [ ],
+    "trainingLoad" : 0.0,
+    "distanceM" : 3729.7018827494608,
+    "durationS" : 1200,
+    "intervalType" : "easy"
+  }, {
+    "date" : "2015-03-22",
+    "activity" : "running",
+    "description" : "The third type of general workouts of this phase with a few intervals of fast running — It’s designed to increase your lactate threshold so you can run faster for longer. It’s important to keep the planned pace — you shouldn’t run faster or slower.",
+    "periodId" : "planning_profile_running_marathon_transition_stage",
+    "completion" : 0,
+    "completedTrainings" : [ ],
+    "trainingLoad" : 52.42025657066815,
+    "distanceM" : 13269.047158913409,
+    "durationS" : 3660,
+    "segments" : [ {
+      "reps" : 1,
+      "value" : [ {
+        "speedMPS" : 3.108084902291217,
+        "durationS" : 300,
+        "points" : [ ],
+        "intensity" : "easy"
+      } ]
+    }, {
+      "reps" : 6,
+      "value" : [ {
+        "speedMPS" : 3.859456496151358,
+        "durationS" : 420,
+        "points" : [ ],
+        "intensity" : "threshold"
+      }, {
+        "speedMPS" : 3.1080849022912176,
+        "durationS" : 90,
+        "points" : [ ],
+        "intensity" : "easy"
+      } ]
+    }, {
+      "reps" : 1,
+      "value" : [ {
+        "speedMPS" : 3.108084902291217,
+        "durationS" : 300,
+        "points" : [ ],
+        "intensity" : "easy"
+      } ]
+    } ],
+    "intervalType" : "threshold"
+  }, {
+    "date" : "2015-03-24",
+    "activity" : "running",
+    "description" : "An easy recovery run. Don’t push yourself — you can run faster but it’s the time to relax. You’ve been working really hard lately, so have a break.\n\nRelax, run easy and enjoy the scenery.",
+    "periodId" : "planning_profile_running_marathon_transition_stage",
+    "completion" : 0,
+    "completedTrainings" : [ ],
+    "trainingLoad" : 0.0,
+    "distanceM" : 5617.647372264951,
+    "durationS" : 1800,
+    "intervalType" : "easy"
+  }, {
+    "date" : "2015-03-25",
+    "activity" : "running",
+    "description" : "An easy recovery run. Don’t push yourself — you can run faster but it’s the time to relax. You’ve been working really hard lately, so have a break.\n\nRelax, run easy and enjoy the scenery.",
+    "periodId" : "planning_profile_running_marathon_transition_stage",
+    "completion" : 0,
+    "completedTrainings" : [ ],
+    "trainingLoad" : 0.0,
+    "distanceM" : 5617.647372264951,
+    "durationS" : 1800,
+    "intervalType" : "easy"
+  }, {
+    "date" : "2015-03-26",
+    "activity" : "running",
+    "description" : "The first type of complementary workouts with one long interval of fast running — like a general one, it’s designed to build up your endurance as well as your speed and increase your lactate threshold. Try to do your best to keep the planned pace.",
+    "periodId" : "planning_profile_running_marathon_transition_stage",
+    "completion" : 0,
+    "completedTrainings" : [ ],
+    "trainingLoad" : 25.893378578990603,
+    "distanceM" : 7167.648457191776,
+    "durationS" : 2040,
+    "segments" : [ {
+      "reps" : 1,
+      "value" : [ {
+        "speedMPS" : 3.1209152068138617,
+        "durationS" : 300,
+        "points" : [ ],
+        "intensity" : "easy"
+      } ]
+    }, {
+      "reps" : 1,
+      "value" : [ {
+        "speedMPS" : 3.8756518752388867,
+        "durationS" : 1200,
+        "points" : [ ],
+        "intensity" : "threshold"
+      }, {
+        "speedMPS" : 2.6846545117366483,
+        "durationS" : 240,
+        "points" : [ ],
+        "intensity" : "very_easy"
+      } ]
+    }, {
+      "reps" : 1,
+      "value" : [ {
+        "speedMPS" : 3.1209152068138617,
+        "durationS" : 300,
+        "points" : [ ],
+        "intensity" : "easy"
+      } ]
+    } ],
+    "intervalType" : "threshold"
+  }, {
+    "date" : "2015-03-28",
+    "activity" : "running",
+    "description" : "An easy recovery run. Don’t push yourself — you can run faster but it’s the time to relax. You’ve been working really hard lately, so have a break.\n\nRelax, run easy and enjoy the scenery.",
+    "periodId" : "planning_profile_running_marathon_transition_stage",
+    "completion" : 0,
+    "completedTrainings" : [ ],
+    "trainingLoad" : 0.0,
+    "distanceM" : 5617.647372264951,
+    "durationS" : 1800,
+    "intervalType" : "easy"
+  }, {
+    "date" : "2015-03-29",
+    "activity" : "running",
+    "description" : "The second type of general workouts of this phase — it’s a long and demanding marathon-pace run. Try to keep the planned pace.",
+    "periodId" : "planning_profile_running_marathon_transition_stage",
+    "completion" : 0,
+    "completedTrainings" : [ ],
+    "trainingLoad" : 52.45317677812189,
+    "distanceM" : 15244.990254729833,
+    "durationS" : 4260,
+    "segments" : [ {
+      "reps" : 1,
+      "value" : [ {
+        "speedMPS" : 3.1209152068138617,
+        "durationS" : 300,
+        "points" : [ ],
+        "intensity" : "easy"
+      } ]
+    }, {
+      "reps" : 1,
+      "value" : [ {
+        "speedMPS" : 3.662551727286857,
+        "durationS" : 3600,
+        "points" : [ ],
+        "intensity" : "medium"
+      }, {
+        "speedMPS" : 3.1209152068138617,
+        "durationS" : 360,
+        "points" : [ ],
+        "intensity" : "easy"
+      } ]
+    } ],
+    "intervalType" : "medium"
+  }, {
+    "date" : "2015-03-31",
+    "activity" : "running",
+    "description" : "An easy recovery run. Don’t push yourself — you can run faster but it’s not the right time. The final run is coming, so you should concentrate on easy pace to give your body enough time to recover.\n\nRelax, run easy and enjoy the scenery.",
+    "periodId" : "planning_profile_running_marathon_final_stage",
+    "completion" : 0,
+    "completedTrainings" : [ ],
+    "trainingLoad" : 0.0,
+    "distanceM" : 5640.981509977819,
+    "durationS" : 1800,
+    "intervalType" : "easy"
+  }, {
+    "date" : "2015-04-01",
+    "activity" : "running",
+    "description" : "An easy recovery run. Don’t push yourself — you can run faster but it’s not the right time. The final run is coming, so you should concentrate on easy pace to give your body enough time to recover.\n\nRelax, run easy and enjoy the scenery.",
+    "periodId" : "planning_profile_running_marathon_final_stage",
+    "completion" : 0,
+    "completedTrainings" : [ ],
+    "trainingLoad" : 0.0,
+    "distanceM" : 5640.981509977819,
+    "durationS" : 1800,
+    "intervalType" : "easy"
+  }, {
+    "date" : "2015-04-02",
+    "activity" : "running",
+    "description" : "The first type of complementary workouts of this phase with one long interval of fast running — like a general one, it’s designed to build up your endurance as well as your speed and increase your lactate threshold. Try to do your best to keep the planned pace.",
+    "periodId" : "planning_profile_running_marathon_final_stage",
+    "completion" : 0,
+    "completedTrainings" : [ ],
+    "trainingLoad" : 25.842944149692638,
+    "distanceM" : 7197.734822476902,
+    "durationS" : 2040,
+    "segments" : [ {
+      "reps" : 1,
+      "value" : [ {
+        "speedMPS" : 3.1338786166543438,
+        "durationS" : 300,
+        "points" : [ ],
+        "intensity" : "easy"
+      } ]
+    }, {
+      "reps" : 1,
+      "value" : [ {
+        "speedMPS" : 3.8920118804302493,
+        "durationS" : 1200,
+        "points" : [ ],
+        "intensity" : "threshold"
+      }, {
+        "speedMPS" : 2.695805816533317,
+        "durationS" : 240,
+        "points" : [ ],
+        "intensity" : "very_easy"
+      } ]
+    }, {
+      "reps" : 1,
+      "value" : [ {
+        "speedMPS" : 3.1338786166543438,
+        "durationS" : 300,
+        "points" : [ ],
+        "intensity" : "easy"
+      } ]
+    } ],
+    "intervalType" : "threshold"
+  }, {
+    "date" : "2015-04-04",
+    "activity" : "running",
+    "description" : "An easy recovery run. Don’t push yourself — you can run faster but it’s not the right time. The final run is coming, so you should concentrate on easy pace to give your body enough time to recover.\n\nRelax, run easy and enjoy the scenery.",
+    "periodId" : "planning_profile_running_marathon_final_stage",
+    "completion" : 0,
+    "completedTrainings" : [ ],
+    "trainingLoad" : 0.0,
+    "distanceM" : 5640.981509977819,
+    "durationS" : 1800,
+    "intervalType" : "easy"
+  }, {
+    "date" : "2015-04-05",
+    "activity" : "running",
+    "description" : "The first type of general workouts of this phase that is designed to build up your endurance.\n\nIt’s based on the duration rather than on the distance so try to keep the planned pace and don't push yourself too hard — you shouldn’t feel too tired after the run.",
+    "periodId" : "planning_profile_running_marathon_final_stage",
+    "completion" : 0,
+    "completedTrainings" : [ ],
+    "trainingLoad" : 0.0,
+    "distanceM" : 26324.580379896488,
+    "durationS" : 8400,
+    "intervalType" : "easy"
+  }, {
+    "date" : "2015-04-07",
+    "activity" : "running",
+    "description" : "An easy recovery run. Don’t push yourself — you can run faster but it’s not the right time. The final run is coming, so you should concentrate on easy pace to give your body enough time to recover.\n\nRelax, run easy and enjoy the scenery.",
+    "periodId" : "planning_profile_running_marathon_final_stage",
+    "completion" : 0,
+    "completedTrainings" : [ ],
+    "trainingLoad" : 0.0,
+    "distanceM" : 2832.2790525678643,
+    "durationS" : 900,
+    "intervalType" : "easy"
+  }, {
+    "date" : "2015-04-08",
+    "activity" : "running",
+    "description" : "An easy recovery run. Don’t push yourself — you can run faster but it’s not the right time. The final run is coming, so you should concentrate on easy pace to give your body enough time to recover.\n\nRelax, run easy and enjoy the scenery.",
+    "periodId" : "planning_profile_running_marathon_final_stage",
+    "completion" : 0,
+    "completedTrainings" : [ ],
+    "trainingLoad" : 0.0,
+    "distanceM" : 2832.2790525678643,
+    "durationS" : 900,
+    "intervalType" : "easy"
+  }, {
+    "date" : "2015-04-09",
+    "activity" : "running",
+    "description" : "The second type of complementary workouts of this phase with a few intervals of fast running — like a general one, it’s designed to build up your endurance as well as your speed and increase your lactate threshold. Try to do your best to keep the planned pace.",
+    "periodId" : "planning_profile_running_marathon_final_stage",
+    "completion" : 0,
+    "completedTrainings" : [ ],
+    "trainingLoad" : 19.71115376149979,
+    "distanceM" : 5737.814212439523,
+    "durationS" : 1620,
+    "segments" : [ {
+      "reps" : 1,
+      "value" : [ {
+        "speedMPS" : 3.1469767250754046,
+        "durationS" : 300,
+        "points" : [ ],
+        "intensity" : "easy"
+      } ]
+    }, {
+      "reps" : 2,
+      "value" : [ {
+        "speedMPS" : 3.9085385320008417,
+        "durationS" : 420,
+        "points" : [ ],
+        "intensity" : "threshold"
+      }, {
+        "speedMPS" : 3.1469767250754046,
+        "durationS" : 90,
+        "points" : [ ],
+        "intensity" : "easy"
+      } ]
+    }, {
+      "reps" : 1,
+      "value" : [ {
+        "speedMPS" : 3.1469767250754046,
+        "durationS" : 300,
+        "points" : [ ],
+        "intensity" : "easy"
+      } ]
+    } ],
+    "intervalType" : "threshold"
+  }, {
+    "date" : "2015-04-11",
+    "activity" : "running",
+    "description" : "An easy recovery run. Don’t push yourself — you can run faster but it’s not the right time. The final run is coming, so you should concentrate on easy pace to give your body enough time to recover.\n\nRelax, run easy and enjoy the scenery.",
+    "periodId" : "planning_profile_running_marathon_final_stage",
+    "completion" : 0,
+    "completedTrainings" : [ ],
+    "trainingLoad" : 0.0,
+    "distanceM" : 2832.2790525678643,
+    "durationS" : 900,
+    "intervalType" : "easy"
+  }, {
+    "date" : "2015-04-12",
+    "activity" : "running",
+    "description" : "The second type of general workouts of this phase — it’s a long and demanding marathon-pace run. Try to keep consistent pace.",
+    "periodId" : "planning_profile_running_marathon_final_stage",
+    "completion" : 0,
+    "completedTrainings" : [ ],
+    "trainingLoad" : 32.129517383430176,
+    "distanceM" : 9835.759010584658,
+    "durationS" : 2760,
+    "segments" : [ {
+      "reps" : 1,
+      "value" : [ {
+        "speedMPS" : 3.1469767250754046,
+        "durationS" : 300,
+        "points" : [ ],
+        "intensity" : "easy"
+      } ]
+    }, {
+      "reps" : 1,
+      "value" : [ {
+        "speedMPS" : 3.694644939064233,
+        "durationS" : 2100,
+        "points" : [ ],
+        "intensity" : "medium"
+      }, {
+        "speedMPS" : 3.1469767250754046,
+        "durationS" : 360,
+        "points" : [ ],
+        "intensity" : "easy"
+      } ]
+    } ],
+    "intervalType" : "medium"
+  }, {
+    "date" : "2015-04-14",
+    "activity" : "running",
+    "description" : "An easy recovery run. Don’t push yourself — you can run faster but it’s not the right time. The final run is coming, so you should concentrate on easy pace to give your body enough time to recover.\n\nRelax, run easy and enjoy the scenery.",
+    "periodId" : "planning_profile_running_marathon_final_stage",
+    "completion" : 0,
+    "completedTrainings" : [ ],
+    "trainingLoad" : 0.0,
+    "distanceM" : 4740.316740562806,
+    "durationS" : 1500,
+    "intervalType" : "easy"
+  }, {
+    "date" : "2015-04-15",
+    "activity" : "running",
+    "description" : "An easy recovery run. Don’t push yourself — you can run faster but it’s not the right time. The final run is coming, so you should concentrate on easy pace to give your body enough time to recover.\n\nRelax, run easy and enjoy the scenery.",
+    "periodId" : "planning_profile_running_marathon_final_stage",
+    "completion" : 0,
+    "completedTrainings" : [ ],
+    "trainingLoad" : 0.0,
+    "distanceM" : 4740.316740562806,
+    "durationS" : 1500,
+    "intervalType" : "easy"
+  }, {
+    "date" : "2015-04-16",
+    "activity" : "running",
+    "description" : "The first type of complementary workouts of this phase with one long interval of fast running — like a general one, it’s designed to build up your endurance as well as your speed and increase your lactate threshold. Try to do your best to keep the planned pace.",
+    "periodId" : "planning_profile_running_marathon_final_stage",
+    "completion" : 0,
+    "completedTrainings" : [ ],
+    "trainingLoad" : 25.743985302433153,
+    "distanceM" : 7258.837152763845,
+    "durationS" : 2040,
+    "segments" : [ {
+      "reps" : 1,
+      "value" : [ {
+        "speedMPS" : 3.160211160375204,
+        "durationS" : 300,
+        "points" : [ ],
+        "intensity" : "easy"
+      } ]
+    }, {
+      "reps" : 1,
+      "value" : [ {
+        "speedMPS" : 3.925233893335244,
+        "durationS" : 1200,
+        "points" : [ ],
+        "intensity" : "threshold"
+      }, {
+        "speedMPS" : 2.718457435568453,
+        "durationS" : 240,
+        "points" : [ ],
+        "intensity" : "very_easy"
+      } ]
+    }, {
+      "reps" : 1,
+      "value" : [ {
+        "speedMPS" : 3.160211160375204,
+        "durationS" : 300,
+        "points" : [ ],
+        "intensity" : "easy"
+      } ]
+    } ],
+    "intervalType" : "threshold"
+  }, {
+    "date" : "2015-04-18",
+    "activity" : "running",
+    "description" : "An easy recovery run. Don’t push yourself — you can run faster but it’s not the right time. The final run is coming, so you should concentrate on easy pace to give your body enough time to recover.\n\nRelax, run easy and enjoy the scenery.",
+    "periodId" : "planning_profile_running_marathon_final_stage",
+    "completion" : 0,
+    "completedTrainings" : [ ],
+    "trainingLoad" : 0.0,
+    "distanceM" : 4740.316740562806,
+    "durationS" : 1500,
+    "intervalType" : "easy"
+  }, {
+    "date" : "2015-04-19",
+    "activity" : "running",
+    "description" : "The third type of general workouts of this phase with one interval of fast running — it’s designed to build up your endurance as well as your speed and increase your lactate threshold. Try to do your best to keep the planned pace.",
+    "periodId" : "planning_profile_running_marathon_final_stage",
+    "completion" : 0,
+    "completedTrainings" : [ ],
+    "trainingLoad" : 25.743985302433153,
+    "distanceM" : 7258.837152763845,
+    "durationS" : 2040,
+    "segments" : [ {
+      "reps" : 1,
+      "value" : [ {
+        "speedMPS" : 3.160211160375204,
+        "durationS" : 300,
+        "points" : [ ],
+        "intensity" : "easy"
+      } ]
+    }, {
+      "reps" : 1,
+      "value" : [ {
+        "speedMPS" : 3.925233893335244,
+        "durationS" : 1200,
+        "points" : [ ],
+        "intensity" : "threshold"
+      }, {
+        "speedMPS" : 2.718457435568453,
+        "durationS" : 240,
+        "points" : [ ],
+        "intensity" : "very_easy"
+      } ]
+    }, {
+      "reps" : 1,
+      "value" : [ {
+        "speedMPS" : 3.160211160375204,
+        "durationS" : 300,
+        "points" : [ ],
+        "intensity" : "easy"
+      } ]
+    } ],
+    "intervalType" : "threshold"
+  }, {
+    "date" : "2015-04-21",
+    "activity" : "running",
+    "description" : "An easy recovery run. Don’t push yourself — you can run faster but it’s not the right time. The final run is coming, so you should concentrate on easy pace to give your body enough time to recover.\n\nRelax, run easy and enjoy the scenery.",
+    "periodId" : "planning_profile_running_marathon_final_stage",
+    "completion" : 0,
+    "completedTrainings" : [ ],
+    "trainingLoad" : 0.0,
+    "distanceM" : 3808.3003038480947,
+    "durationS" : 1200,
+    "intervalType" : "easy"
+  }, {
+    "date" : "2015-04-22",
+    "activity" : "running",
+    "description" : "An easy recovery run. Don’t push yourself — you can run faster but it’s not the right time. The final run is coming, so you should concentrate on easy pace to give your body enough time to recover.\n\nRelax, run easy and enjoy the scenery.",
+    "periodId" : "planning_profile_running_marathon_final_stage",
+    "completion" : 0,
+    "completedTrainings" : [ ],
+    "trainingLoad" : 0.0,
+    "distanceM" : 3808.3003038480947,
+    "durationS" : 1200,
+    "intervalType" : "easy"
+  }, {
+    "date" : "2015-04-23",
+    "activity" : "running",
+    "description" : "The second type of complementary workouts of this phase with a few intervals of fast running — like a general one, it’s designed to build up your endurance as well as your speed and increase your lactate threshold. Try to do your best to keep the planned pace.",
+    "periodId" : "planning_profile_running_marathon_final_stage",
+    "completion" : 0,
+    "completedTrainings" : [ ],
+    "trainingLoad" : 19.63554072021624,
+    "distanceM" : 5786.759257782636,
+    "durationS" : 1620,
+    "segments" : [ {
+      "reps" : 1,
+      "value" : [ {
+        "speedMPS" : 3.173583586540079,
+        "durationS" : 300,
+        "points" : [ ],
+        "intensity" : "easy"
+      } ]
+    }, {
+      "reps" : 2,
+      "value" : [ {
+        "speedMPS" : 3.942100071763541,
+        "durationS" : 420,
+        "points" : [ ],
+        "intensity" : "threshold"
+      }, {
+        "speedMPS" : 3.173583586540079,
+        "durationS" : 90,
+        "points" : [ ],
+        "intensity" : "easy"
+      } ]
+    }, {
+      "reps" : 1,
+      "value" : [ {
+        "speedMPS" : 3.173583586540079,
+        "durationS" : 300,
+        "points" : [ ],
+        "intensity" : "easy"
+      } ]
+    } ],
+    "intervalType" : "threshold"
+  }, {
+    "date" : "2015-04-25",
+    "activity" : "running",
+    "description" : "An easy recovery run. Don’t push yourself — you can run faster but it’s not the right time. The final run is coming, so you should concentrate on easy pace to give your body enough time to recover.\n\nRelax, run easy and enjoy the scenery.",
+    "periodId" : "planning_profile_running_marathon_final_stage",
+    "completion" : 0,
+    "completedTrainings" : [ ],
+    "trainingLoad" : 0.0,
+    "distanceM" : 3808.3003038480947,
+    "durationS" : 1200,
+    "intervalType" : "easy"
+  }, {
+    "date" : "2015-04-26",
+    "activity" : "running",
+    "description" : "It's the day you've been training for — run the race at a consistent & comfortable pace from the very start to finish.\n\nDrink and eat regularly during the run, you should not feel thirsty at any moment. Don't try anything new — meals should be the same, water the same, shoes the same — half marathon isn't the right time for experiments.",
+    "periodId" : "planning_profile_running_marathon_final_stage",
+    "completion" : 0,
+    "completedTrainings" : [ ],
+    "trainingLoad" : 0.0,
+    "distanceM" : 21096.0,
+    "durationS" : 5462
+  } ],
+  "planAvailable" : true,
+  "type" : "trainingPlan"
+}

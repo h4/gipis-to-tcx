@@ -1,0 +1,1003 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
+<head>
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=yes, maximum-scale=3.0"/>
+<meta name="apple-itunes-app" content="app-id=509471329, app-argument=/h404/plan/">
+<meta name='yandex-verification' content='6fc7486375b49c9e' />
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+
+<script type="text/javascript">
+document.gipis = {};
+
+document.API_URL = '/_api';
+document.AJAX_URL = '/_ajax';
+document.ACTION_URL = '/_action';
+document.IMAGE_URL = 'http://images.gip.is/';
+
+document.templates = {
+	goals: '/res/html/goals.html?5',
+	planUnavailable: '/res/html/plan_unavailable.html?2',
+	planPreview: '/res/html/plan_preview.html?7',
+	todo: '/res/html/todo.html?3',
+	addWorkout: '/res/html/add_workout.html?10'
+};
+</script>
+
+
+<script type="text/template" id="t-comment">
+<a href="/<%= from.login || from.id %>" class="b-stream_item_comments_elem_userpic"><img src="http://images.gip.is/<%= from.picture %>_i" alt="" /></a>
+<% if (typeof createdTime != 'undefined') { %>
+<div class="b-stream_item_comments_elem_date js-date" data-timestamp="<%= createdTime %>"></div>
+<% } %>
+<div class="b-stream_item_comments_elem_author">
+	<a href="/<%= from.login || from.id %>" class="b-stream_item_comments_elem_author_link"><%= from.name %></a>
+</div>
+<div class="b-stream_item_comments_elem_text"><%= html %></div>
+<a href="#" class="js-delete b-stream_item_comments_elem_delete b-icon i-remove" title="Delete this comment"></a>
+</script>
+<script type="text/template" id="t-commentlist_loadmore">
+<div class="b-stream_item_comments_loadmore">
+	<a href="#">
+		show previous <%= count %> <% if (all && count != all) { %>of <%= all%><% } %> comments
+		<i class="b-icon i-load_more_comments"></i>
+	</a>
+</div>
+</script>
+<script type="text/template" id="t-popup">
+<div class="b-popup_new_overlay t-overlay"></div>
+<div class="b-popup_new_content t-content">
+	<div class="b-popup_new_content_loading t-content_loading"></div>
+	<a href="#" class="b-popup_new_close b-icon i-popup_close t-close"></a>
+</div>
+</script>
+
+<script src="http://maps.google.com/maps/api/js?sensor=true" type="text/javascript"></script>
+<script src="/media/?g=default_js" type="text/javascript"></script>
+<script src="/media/?g=google_js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="/media/?g=default_css" type="text/css" />
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:800,400,300" rel="stylesheet" type="text/css" /><script>
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-23335900-3', 'gip.is');
+  ga('send', 'pageview');
+</script>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter24617555 = new Ya.Metrika({id:24617555,
+                    webvisor:true,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true});
+        } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/24617555" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->	<title>
+Marathon training plan — Михаил Баранов — Gipis
+</title>
+	
+	
+			
+</head>
+
+<body class="">
+	<div id="fb-root"></div>
+<script>
+window.fbAsyncInit = function() {
+	FB.init({
+		appId      : '175320542579298', // App ID
+		status     : true, // check login status
+		cookie     : true // enable cookies to allow the server to access the session
+	});
+	if (typeof facebookHandler != "undefined") {
+		facebookHandler.getLoginStatus();
+	}
+	if (document.gipis && document.gipis.socialHandler) {
+		document.gipis.socialHandler.init();
+	}
+};
+
+// Load the SDK Asynchronously
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+
+</script>
+<script type="text/javascript">
+document.currentUser = new User(false);
+</script>	
+		<div class="install-ios">
+    <a class="close" href="#"></a>
+    <a class="install" href="http://j.mp/gipis-camp"></a>
+</div>
+<script>
+    var iOS = /(iPhone|iPod)/g.test( navigator.userAgent );
+    if (iOS) {
+        $(function() {
+            if ($.cookie("install-ios") == undefined) {
+                $(".l-header, .l-page, .l-footer").hide();
+                $(".install-ios").show();
+                $(".install-ios .close, .install-ios .install").on("click", function() {
+                    $.cookie("install-ios", 1);
+                    $(".l-header, .l-page, .l-footer").show();
+                    $(".install-ios").hide();
+                });
+            }
+        }); 
+    }
+</script>
+
+<div class="l-header">
+		<div class="b-header_auth">
+		<div class="l-i-header">
+			<form class="b-auth_form">
+	<div class="b-auth_form_caption" data-bind="text: isSignIn() ? 'Welcome back!' : 'Welcome to Gipis!'"></div>
+	<div class="b-auth_form_prefix" data-bind="text: isSignIn() ? 'Sign in with' : 'Sign up with'"></div>
+	<div class="b-auth_form_social">
+		<a href="#" class="b-auth_form_social_button b-auth_form_social_button_facebook js-login_button" data-provider="facebook"></a>
+		<a href="#" class="b-auth_form_social_button b-auth_form_social_button_twitter js-login_button" data-provider="twitter"></a>
+		<a href="#" class="b-auth_form_social_button b-auth_form_social_button_runkeeper js-login_button" data-provider="runkeeper"></a>
+	</div>
+	<div class="b-auth_form_suffix"><span>or</span></div>
+	<div class="b-auth_form_field">
+		<input data-bind="value: login, valueUpdate: 'afterkeydown'" type="text" class="b-text_field" name="login" placeholder="Email" />
+	</div>
+	<div class="b-auth_form_field">
+		<input data-bind="value: password, valueUpdate: 'afterkeydown'" type="password" name="password" class="b-text_field" placeholder="Password" />
+		<a data-bind="visible: isSignIn" class="b-auth_form_field_link" href="/_reset_password/">Forgot?</a>
+	</div>
+	
+	<button type="submit" class="b-button" data-bind="enable: isSubmitEnabled, text: isSignIn() ? 'Sign in' : 'Sign up', click: submit, css: {'is-animated': isSubmitAnimated}"></button>
+	
+</form>		</div>
+	</div>
+	    
+	<div class="b-header_content">
+				<div class="l-i-header">
+			<a class="b-logo b-icon i-logo_small" href="/" title="Gipis"><span>Gipis</span></a>											<div class="b-application_links">
+	<a href="http://itunes.apple.com/us/app/gipis/id509471329?mt=8" class="b-application_links_item b-application_links_item_iphone">Download Gipis for <i class="b-application_links_item_icon b-icon i-iphone"></i>iPhone</a>
+</div>								<div class="b-auth_buttons_bg"></div>
+<div class="b-auth_buttons">
+		<a href="#" class="b-auth_button b-auth_button_signin js-authform_opener" data-mode="signin"><span class="b-i-auth_button"><i class="b-icon i-user_white"></i>Sign in</span></a>
+	<a href="#" class="b-auth_button b-auth_button_signup js-authform_opener" data-mode="signup"><span class="b-i-auth_button">Sign up</span></a>
+	</div>					</div>
+	</div>
+</div>	
+	<div class="l-page">
+		
+		<div class="l-i-page">
+			<div class="l-content">
+				
+				<div class="l-cols l-cols3">
+					<div class="l-col1">
+						
+		<div class="b-profile_user_left">
+		<a href="/h404/">	
+		<img class="b-profile_user_photo" src="http://images.gip.is/pic_3b466d4e-3d61-460d-99db-afb9bc68f516_m" alt="" />
+	</a>
+		<div class="b-profile_current_user_name">
+	 	<a href="/h404/" class="b-profile_current_user_name_caption">Михаил Баранов</a><br/>
+		<span class="b-profile_current_user_name_caption_shadow"></span>
+					<div class="b-profile_current_user_favourite_activity">
+				cycler
+			</div>
+						<div class="clear"></div>
+	</div>
+</div>
+<div class="b-navigation_aside b-navigation_aside_icons">
+	<div class="b-navigation_aside_edit_profile_arrow b-icon i-navigation_separator_tail"></div>
+	<ul>
+		<li>
+			<a href="/h404/#workouts"><i class="b-navigation_aside_icon b-icon i-navigation_workouts"></i> <span>Workouts</span></a>
+					</li>
+		<li><a href="/h404/#badges"><i class="b-navigation_aside_icon b-icon i-navigation_badges"></i> <span>Badges</span></a></li>
+		<li><a href="/h404/#friends"><i class="b-navigation_aside_icon b-icon i-navigation_friends"></i> <span>Friends</span></a></li>
+		
+				<li><a href="/h404/plan/"><i class="b-navigation_aside_icon b-icon i-navigation_plan"></i> <span>Plan</span></a></li>
+			</ul>
+</div>
+<div class="b-navigation_aside social">
+	<ul>
+        <li>Follow us <a class="facebook" target="_blank" href="http://facebook.com/getGipis"></a> <a class="twitter" target="_blank" href="http://twitter.com/gip_is"></a></li>
+	</ul>
+</div>
+<div class="b-navigation_aside_footer">
+	<ul>
+		<li>&copy; 2015 Gipis</li>
+		
+		<li><a href="/_privacy/">Privacy</a></li>
+		<li><a href="/_terms/">Terms</a></li>
+	</ul>
+</div>
+					</div>
+					<div class="l-col2 js-main_content">
+						
+<script type="text/javascript">
+	var url = {
+		me: '/_api/me',
+		plan: '/_api/4884/plans/current',
+		activities: '/_api/_common/activities'
+	};
+</script>
+
+<script type="text/template" id="t-facebook-share-period-title">
+	<%= isOwn ? 'My' : username + "'s" %> <%= distance %> training plan — <%= period.title.replace('phase', '') %> phase summary
+</script>
+<script type="text/template" id="t-facebook-share-period-description">
+	<%= isOwn ? 'I' : username %> planned to run <%= distance %> on <%= date %> in <%= duration.value %> — this is <%= isOwn ? 'my' : 'the' %> training plan Phase <%= period.number %> summary.
+</script>
+<script type="text/template" id="t-twitter-share-period-tweet">
+	<%= isOwn ? 'My' : username + "'s" %> <%= distanceHashTag %> training plan — <%= period.title.replace('phase', '') %> phase summary
+</script>
+
+<script type="text/template" id="t-facebook-share-training-title">
+	Workout <%= currentWorkoutNumber %> / <%= totalWorkoutsCount%> — <%= info.title %> run
+</script>
+<script type="text/template" id="t-facebook-share-training-description">
+	<%= isOwn ? 'I' : username %> planned a <%= duration.value %> <%= info.title.toLowerCase() %> run — <%= isOwn ? "I'll" : username + ' will' %> run <%= distance.value %> <%= distance.units %> with average pace <%= pace.value %> <%= pace.units %>
+</script>
+<script type="text/template" id="t-twitter-share-training-tweet">
+	<%= isOwn ? 'I' : username %> planned a <%= duration.value %> <%= info.title.toLowerCase() %> run — <%= isOwn ? "I'll" : username + ' will' %> run <%= distance.value %> <%= distance.units %> with average pace <%= pace.value %> <%= pace.units %>
+</script>
+
+<script type="text/template" id="t-plan-settings">
+	<div class="plan-settings-date">
+		<div class="caption" data-bind="text: dictionary.interface.goalDate"></div>
+		<div class="value" data-bind="datepicker: endDate, datepickerOptions: {minDate: limits.minEndDate, maxDate: limits.maxEndDate}">
+			<a class="datepicker-button" href="#"></a>
+		</div>
+	</div>
+	<hr />
+	<div class="plan-settings-intensity">
+		<!-- ko if: intensityList() && intensityList().length > 1 -->
+		<div class="caption" data-bind="text: dictionary.interface.intensity"></div>
+		<ul class="selector" data-bind="foreach: intensityList"><li class="item" data-bind="text: title, click: $root.setIntensity, css: {'is-active': id == $root.intensity()}"></li></ul>
+		<!-- /ko -->
+	</div>
+	<div class="plan-settings-days">
+		<div class="caption" data-bind="html: activeDays.caption"></div>
+		<div class="selector">
+			<ul class="week" data-bind="foreach: week">
+				<li class="item">
+					<label>
+						<span data-bind="text: name"></span><br />
+						<input type="checkbox" data-bind="checked: isChecked, enable: isChecked() || $root.limits.maxDaysPerWeek() > $root.activeDays.count()" />
+					</label>
+				</li>
+			</ul>
+		</div>
+		<div class="description" data-bind="text: activeDays.restDaysCaption"></div>
+	</div>
+	<!-- ko if: $root.activeDays.count() -->
+	<div class="plan-settings-longday">
+		<div class="selector">
+			<span data-bind="text: longDay.prefix"></span>
+			<label>
+				<span data-bind="text: longDay.value"></span>
+				<select data-bind="options: workoutDays,
+					optionsText: 'value',
+					optionsCaption: $root.dictionary.interface.random,
+					value: longDay">
+				</select>
+			</label>
+			<a class="reset" data-bind="visible: longDay, click: longDay.reset, attr: {title: dictionary.interface.resetLongDay}"></a>
+		</div>
+	</div>
+	<!-- /ko -->
+	<hr />
+	<div class="plan-settings-controls">
+		<button class="is-back is-small-fields js-settings-closer" data-bind="text: dictionary.interface.cancel"></button>
+		<button class="is-ok is-small-fields" data-bind="text: dictionary.interface.save, click: save, enable: isReady"></button>
+
+		<div class="notice" data-bind="text: dictionary.interface.finalDateNotice"></div>
+	</div>
+	<div class="plan-settings-new">
+		<a href="#" class="js-setup_goal" data-bind="text: dictionary.interface.newGoal"></a>
+		<span class="notice" data-bind="text: dictionary.interface.newGoalNotice"></span>
+	</div>
+</script>
+<script type="text/template" id="t-calendar">
+	<% function period(period) { %>
+	<div class="calendar-period js-period">
+		<div class="content js-period-fixed" data-period-id="<%= period.id %>">
+			<a href="#" class="title js-period-description-switch">Phase <%= period.number %> (<%= period.title %>)</a>
+			<div class="description js-description">
+				<div class="intense">
+					<div class="pace-chart col-<%= period.intervalsData.length%>">
+						<% _.each(period.intervalsData, function (interval, key) { %>
+						<div class="item<% if (interval.isMain) { %> is-main<% } %>">
+							<div class="fill <%= interval.info.className %>" style="height: <%= interval.height %>%"></div>
+							<div class="value"><%= interval.percentage %>%</div>
+							<div class="data number-<%= key %>">
+								<div class="item-caption">
+									<div class="pace-mark is-small <%= interval.info.className %>" title="<%= interval.info.title %>"><%= interval.info.mark %></div>
+									<div class=""><%= interval.info.title %></div>
+								</div>
+								<div class="item-stats">
+									<dl>
+										<dt>Time:</dt>
+										<dd><%= interval.duration.value %></dd>
+									</dl>
+									<dl>
+										<dt><%= interval.distance.title %></dt>
+										<dd><%= interval.distance.value %></dd>
+									</dl>
+								</div>
+							</div>
+						</div>
+						<% }); %>
+					</div>
+				</div>
+				<div class="stats">
+					<dl>
+						<dt>Total time:</dt>
+						<dd><%= period.stats.duration.value %></dd>
+					</dl>
+					<dl>
+						<dt>Workouts:</dt>
+						<dd><%= period.stats.workouts %></dd>
+					</dl>
+					<% if (false) { %>
+					<dl>
+						<dt><%= period.stats.calories.title %>:</dt>
+						<dd><%= period.stats.calories.value %></dd>
+					</dl>
+					<% } %>
+					<dl>
+						<dt><%= period.stats.distance.title %>:</dt>
+						<dd><%= period.stats.distance.value %></dd>
+					</dl>
+				</div>
+				<div class="info"><%= period.description %></div>
+				<div class="actions">
+					<% if (period.canSkip && period.hasTrainingsInFuture) { %>
+					<div class="skip">
+						<a href="#" class="js-period-skip">Skip this phase</a>
+						(Do it if you are 100% confident only)
+					</div>
+					<% } %>
+
+					<div class="share">
+						<a href="#" class="fb js-share" data-id="<%= period.id %>" data-type="period" data-provider="facebook" data-number="<%= period.number %>"></a>
+						<a href="#" class="twi js-share" data-id="<%= period.id %>" data-type="period" data-provider="twitter" data-number="<%= period.number %>"></a>
+					</div>
+				</div>
+				<% if (period.canSkip && period.hasTrainingsInFuture) { %>
+				<div class="skip-period-form js-period-skip-form" style="display: none">
+					<div class="inner">
+						<h4>Attention!</h4>
+						<p>"Building up" is the base for faster running. Skip it only if you're 100% confident.</p>
+						<div class="controls">
+							<button class="is-back js-period-skip-cancel">Cancel</button>
+							<button class="is-ok js-period-skip-confirm">Skip</button>
+						</div>
+					</div>
+				</div>
+				<% } %>
+			</div>
+		</div>
+	</div>
+	<% } %>
+
+	<% function weekSummary(summary) { %>
+	<dl>
+		<dt>Week <%= summary.number %> Distance:</dt>
+		<dd><%= summary.distance.value %> <span class="units"><%= summary.distance.units %></span></dd>
+	</dl>
+	<dl>
+		<dt>Total time:</dt>
+		<dd><%= summary.duration.value %></dd>
+	</dl>
+	<dl>
+		<dt>AVG Pace:</dt>
+		<dd><%= summary.pace.value %> <span class="units"><%= summary.pace.units %></span></dd>
+	</dl>
+	<dl>
+		<dt><%= summary.calories.units %>:</dt>
+		<dd><%= summary.calories.value %></dd>
+	</dl>
+	<% } %>
+
+	<% function week(week) { %>
+	<div class="calendar-week js-week <%= _.pickUp(['is-current'], week.isCurrent).join(' ') %>">
+		<div class="calendar-week-summary">
+			<div class="content js-content">
+				<% weekSummary(week.summary) %>
+				<a href="#" class="close js-week-summary-switch"></a>
+			</div>
+			<a href="#" class="corner js-corner js-week-summary-switch"></a>
+		</div>
+		<div class="calendar-week-days">
+			<% _.each(week.days, day); %>
+		</div>
+	</div>
+	<% } %>
+
+	<% function dayTraining(training) { %>
+	<div data-id="<%= training.id %>" class="calendar-day-training js-day-training <%= _.pickUp(['is-interval', 'is-past', 'is-missed', 'is-completed'], training.isInterval, training.isPast, training.isMissed, training.isCompleted).join(' ') %>">
+		<% if (0 && training.distance) { %>
+		<div class="distance"><%= training.distance.value %> <%= training.distance.units %></div>
+		<% } %>
+		<% if (training.duration) { %>
+		<div class="time"><%= training.duration.value %></div>
+		<% } %>
+		<% if (0 && training.pace && !training.isInterval) { %>
+		<div class="pace"><%= training.pace.value %> <%= training.pace.units %></div>
+		<% } %>
+		<% if (training.info) { %>
+		<div class="pace-mark is-small <%= training.info.className %>" title="<%= training.info.title %>"><%= training.info.mark %></div>
+		<% } else { %>
+		<div class="pace-mark is-small is-last" title="Race"></div>
+		<% } %>
+	</div>
+	<div class="calendar-day-fullinfo js-day-fullinfo">
+		<div class="date">
+			<div class="date-inner">
+				<span class="month"><%= training.date.month %></span>
+				<span class="day"><%= training.date.day %></span>
+			</div>
+			<div class="share">
+				<a href="#" class="fb js-share" data-id="<%= training.id %>" data-type="training" data-provider="facebook"></a>
+				<a href="#" class="twi js-share" data-id="<%= training.id %>" data-type="training" data-provider="twitter"></a>
+			</div>
+		</div>
+		<div class="content">
+			<div class="calendar-day-fullinfo-stats">
+				<% if (training.distance) { %>
+				<dl>
+					<dt>Distance</dt>
+					<dd><%= training.distance.value %> <span class="units"><%= training.distance.units %></span></dd>
+				</dl>
+				<% } %>
+				<% if (training.duration) { %>
+				<dl>
+					<dt>Duration</dt>
+					<dd><%= training.duration.value %></dd>
+				</dl>
+				<% } %>
+			</div>
+
+			<div class="calendar-day-fullinfo-completion">
+				<% if (training.isCompleted) { %>
+				<a class="link is-completed" href="/<%= training.completedTrainingId %>/" target="_blank">Workout page</a>
+				<% } else if (training.isOwn) { %>
+				<a href="#" class="link js-complete-switch <%= _.pickUp(['is-missed'], training.isMissed).join(' ') %>">Mark complete</a>
+				<div class="selector js-complete-block">
+					<div class="use-exists">
+						<div class="caption">Choose existing:</div>
+						<ul class="js-complete-block-list"></ul>
+					</div>
+					<div class="add-new">
+						<a href="#" class="js-add-workout">Add new workout</a>
+					</div>
+					<div class="clear"></div>
+				</div>
+				<% }  %>
+			</div>
+
+			<div class="calendar-day-fullinfo-description"><%= training.description %></div>
+			<% if (training.isInterval) { %>
+			<div class="training-intervals <%= _.pickUp(['is-full'], training.segments.hasReps).join(' ') %>">
+				<% _.each(training.segments, function (segment) { %>
+				<dl class="elem">
+
+					<% if (segment.reps > 1) { %>
+					<dt class="count"><%= segment.reps %></dt>
+					<% } %>
+
+					<% _.each(segment.intervals, function (interval) { %>
+					<dd class="info">
+						<div class="duration"><%= interval.duration.value %></div>
+						<div class="pace">
+							<div class="value js-pace" title="<%= interval.info.title %>"><%= interval.pace.value %> <%= interval.pace.units %></div>
+							<div class="pace-mark js-pace <%= interval.info.className %>" title="<%= interval.info.title %>"><%= interval.info.mark %></div>
+							<div class="pace-info <%= interval.info.className %>">
+								<div class="caption"><%= interval.info.title %></div>
+								<div class="stats">
+									<dl>
+										<dt>Pace</dt>
+										<dd>
+											<%= interval.pace.value %> <span class="units"><%= interval.pace.units %></span>
+										</dd>
+									</dl>
+									<dl>
+										<dt>% of high pace</dt>
+										<dd><%= interval.info.speedPercentage %></dd>
+									</dl>
+									<dl>
+										<dt>% of max HR</dt>
+										<dd><%= interval.info.hrPercentage %></dd>
+									</dl>
+								</div>
+								<div class="description">
+									<p><%= interval.info.description %></p>
+									<p>Learn more in <a href="<%= interval.info.url %>" target="_blank">Knowledge base</a></p>
+								</div>
+							</div>
+						</div>
+					</dd>
+					<% }); %>
+
+				</dl>
+				<% }); %>
+			</div>
+			<div class="training-intervals-chart">
+				<% _.each(training.chart, function (interval) { %>
+				<div class="column <%= interval.info.className %>" style="width: <%= interval.width %>; height: <%= interval.height %>">
+					<div class="popup">
+						<span class="value is-pace" data-before="Pace:" data-after="<%= interval.pace.units %>"><%= interval.pace.value %></span>
+						<span class="value is-duration" data-before="Duration:"><%= interval.duration.value %></span>
+						<span class="value is-distance" data-before="Distance:" data-after="<%= interval.distance.units %>"><%= interval.distance.value %></span>
+					</div>
+				</div>
+				<% }); %>
+			</div>
+			<% } else if (training.info) { %>
+			<div class="training-steady">
+				<div class="prefix">Steady pace</div>
+				<div class="separator">&mdash;</div>
+				<div class="pace">
+					<div class="value js-pace" title="<%= training.info.title %>"><%= training.pace.value %> <%= training.pace.units %></div>
+					<div class="pace-mark js-pace <%= training.info.className %>" title="<%= training.info.title %>"><%= training.info.mark %></div>
+					<div class="pace-info <%= training.info.className %>">
+						<div class="caption"><%= training.info.title %></div>
+						<div class="stats">
+							<dl>
+								<dt>Pace</dt>
+								<dd>
+									<%= training.pace.value %> <span class="units"><%= training.distance.units %></span>
+								</dd>
+							</dl>
+							<dl>
+								<dt>% of high pace</dt>
+								<dd><%= training.info.speedPercentage %></dd>
+							</dl>
+							<dl>
+								<dt>% of max HR</dt>
+								<dd><%= training.info.hrPercentage %></dd>
+							</dl>
+						</div>
+						<div class="description">
+							<p><%= training.info.description %></p>
+							<p>Learn more in <a href="<%= training.info.url %>" target="_blank">Knowledge base</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<% } else { %>
+			<div class="training-steady">
+				<div class="prefix">Steady pace</div>
+				<div class="separator">&mdash;</div>
+				<div class="pace">
+					<%= training.pace.value %> <%= training.pace.units %>
+				</div>
+			</div>
+			<% } %>
+		</div>
+	</div>
+	<% } %>
+
+	<% function day(day) { %>
+	<div class="calendar-day js-day is-day<%= day.number %> <%= _.pickUp(['is-today'], day.isToday).join(' ') %>" data-id="<%= day.id %>">
+		<div class="calendar-day-date"><%= day.date %></div>
+		<% if (day.training) { dayTraining(day.training); } %>
+	</div>
+	<% } %>
+
+	<div class="plan-summary">
+		<div class="content">
+			<dl>
+				<dt>Distance:</dt>
+				<dd class="is-distance"><%= summary.distance %></dd>
+			</dl>
+			<dl>
+				<dt>Time Goal:</dt>
+				<dd class="is-time"><%= summary.time.value %></dd>
+			</dl>
+			<dl>
+				<dt>on</dt>
+				<dd class="is-date"><%= summary.date %></dd>
+			</dl>
+			<dl>
+				<dt>Workouts:</dt>
+				<dd class="is-workouts"><%= summary.completedWorkouts %>/<%= summary.totalWorkouts %></dd>
+			</dl>
+			<dl>
+				<dt><%= summary.completedDistance.title %></dt>
+				<dd class="is-total-distance"><%= Math.round(summary.completedDistance.value) %>/<%= Math.round(summary.totalDistance.value) %></dd>
+			</dl>
+		</div>
+	</div>
+
+	<div class="plan-weeks">
+		<div class="content js-weeklist-fixed">
+			<div class="title">Weeks</div>
+			<ul class="list">
+				<% _.each(calendar, function (week) { if (week.type == 'week') { %><li class="js-week-number <%= _.pickUp(['js-week-' + week.periodId, 'is-current'], true, week.isCurrent).join(' ') %>"><%= week.summary.number %></li><% } }); %>
+			</ul>
+		</div>
+	</div>
+
+	<div class="plan-calendar">
+		<% _.each(calendar, function (item) { item.type == 'period' ? period(item) : week(item) } ); %>
+	</div>
+</script>
+<script type="text/template" id="t-training-complete-list">
+	<% _.each(trainings, function (training) { %>
+	<li>
+		<a class="training-link" href="/<%= training.id %>/" title="Open this training in new tab" target="_blank"><%= training.title %></a>
+		<a class="complete-button js-complete-button" data-id="<%= training.id %>">Complete</a>
+	</li>
+	<% }); %>
+</script>
+<script type="text/template" id="t-calendar-day">
+	<% function dayTraining(training) { %>
+	<div data-id="<%= training.id %>" class="calendar-day-training js-day-training <%= _.pickUp(['is-interval', 'is-past', 'is-missed', 'is-completed'], training.isInterval, training.isPast, training.isMissed, training.isCompleted).join(' ') %>">
+		<% if (0 && training.distance) { %>
+		<div class="distance"><%= training.distance.value %> <%= training.distance.units %></div>
+		<% } %>
+		<% if (training.duration) { %>
+		<div class="time"><%= training.duration.value %></div>
+		<% } %>
+		<% if (0 && training.pace && !training.isInterval) { %>
+		<div class="pace"><%= training.pace.value %> <%= training.pace.units %></div>
+		<% } %>
+		<% if (training.info) { %>
+		<div class="pace-mark is-small <%= training.info.className %>" title="<%= training.info.title %>"><%= training.info.mark %></div>
+		<% } %>
+	</div>
+	<div class="calendar-day-fullinfo js-day-fullinfo">
+		<div class="date">
+			<div class="date-inner">
+				<span class="month"><%= training.date.month %></span>
+				<span class="day"><%= training.date.day %></span>
+			</div>
+			<div class="share">
+				<a href="#" class="fb js-share" data-id="<%= training.id %>" data-type="training" data-provider="facebook"></a>
+				<a href="#" class="twi js-share" data-id="<%= training.id %>" data-type="training" data-provider="twitter"></a>
+			</div>
+		</div>
+		<div class="content">
+			<div class="calendar-day-fullinfo-stats">
+				<% if (training.distance) { %>
+				<dl>
+					<dt>Distance</dt>
+					<dd><%= training.distance.value %> <span class="units"><%= training.distance.units %></span></dd>
+				</dl>
+				<% } %>
+				<% if (training.duration) { %>
+				<dl>
+					<dt>Duration</dt>
+					<dd><%= training.duration.value %></dd>
+				</dl>
+				<% } %>
+			</div>
+
+			<div class="calendar-day-fullinfo-completion">
+				<% if (training.isCompleted) { %>
+				<a class="link is-completed" href="/<%= training.completedTrainingId %>/" target="_blank">Workout page</a>
+				<% } else if (training.isOwn) { %>
+				<a href="#" class="link js-complete-switch <%= _.pickUp(['is-missed'], training.isMissed).join(' ') %>">Mark complete</a>
+				<div class="selector js-complete-block">
+					<div class="use-exists">
+						<div class="caption">Choose existing:</div>
+						<ul class="js-complete-block-list"></ul>
+					</div>
+					<div class="add-new">
+						<a href="#" class="js-add-workout">Add new workout</a>
+					</div>
+					<div class="clear"></div>
+				</div>
+				<% }  %>
+			</div>
+
+			<div class="calendar-day-fullinfo-description"><%= training.description %></div>
+			<% if (training.isInterval) { %>
+			<div class="training-intervals <%= _.pickUp(['is-full'], training.segments.hasReps).join(' ') %>">
+				<% _.each(training.segments, function (segment) { %>
+				<dl class="elem">
+
+					<% if (segment.reps > 1) { %>
+					<dt class="count"><%= segment.reps %></dt>
+					<% } %>
+
+					<% _.each(segment.intervals, function (interval) { %>
+					<dd class="info">
+						<div class="duration"><%= interval.duration.value %></div>
+						<div class="pace">
+							<div class="value js-pace" title="<%= interval.info.title %>"><%= interval.pace.value %> <%= interval.pace.units %></div>
+							<div class="pace-mark js-pace <%= interval.info.className %>" title="<%= interval.info.title %>"><%= interval.info.mark %></div>
+							<div class="pace-info <%= interval.info.className %>">
+								<div class="caption"><%= interval.info.title %></div>
+								<div class="stats">
+									<dl>
+										<dt>Pace</dt>
+										<dd>
+											<%= interval.pace.value %> <span class="units"><%= interval.pace.units %></span>
+										</dd>
+									</dl>
+									<dl>
+										<dt>% of high pace</dt>
+										<dd><%= interval.info.speedPercentage %></dd>
+									</dl>
+									<dl>
+										<dt>% of max HR</dt>
+										<dd><%= interval.info.hrPercentage %></dd>
+									</dl>
+								</div>
+								<div class="description">
+									<p><%= interval.info.description %></p>
+									<p>Learn more in <a href="<%= interval.info.url %>" target="_blank">Knowledge base</a></p>
+								</div>
+							</div>
+						</div>
+					</dd>
+					<% }); %>
+
+				</dl>
+				<% }); %>
+			</div>
+			<div class="training-intervals-chart">
+				<% _.each(training.chart, function (interval) { %>
+				<div class="column <%= interval.info.className %>" style="width: <%= interval.width %>; height: <%= interval.height %>">
+					<div class="popup">
+						<span class="value is-pace" data-before="Pace:" data-after="<%= interval.pace.units %>"><%= interval.pace.value %></span>
+						<span class="value is-duration" data-before="Duration:"><%= interval.duration.value %></span>
+						<span class="value is-distance" data-before="Distance:" data-after="<%= interval.distance.units %>"><%= interval.distance.value %></span>
+					</div>
+				</div>
+				<% }); %>
+			</div>
+			<% } else if (training.info) { %>
+			<div class="training-steady">
+				<div class="prefix">Steady pace</div>
+				<div class="separator">&mdash;</div>
+				<div class="pace">
+					<div class="value js-pace" title="<%= training.info.title %>"><%= training.pace.value %> <%= training.pace.units %></div>
+					<div class="pace-mark js-pace <%= training.info.className %>" title="<%= training.info.title %>"><%= training.info.mark %></div>
+					<div class="pace-info <%= training.info.className %>">
+						<div class="caption"><%= training.info.title %></div>
+						<div class="stats">
+							<dl>
+								<dt>Pace</dt>
+								<dd>
+									<%= training.pace.value %> <span class="units"><%= training.distance.units %></span>
+								</dd>
+							</dl>
+							<dl>
+								<dt>% of high pace</dt>
+								<dd><%= training.info.speedPercentage %></dd>
+							</dl>
+							<dl>
+								<dt>% of max HR</dt>
+								<dd><%= training.info.hrPercentage %></dd>
+							</dl>
+						</div>
+						<div class="description">
+							<p><%= training.info.description %></p>
+							<p>Learn more in <a href="<%= training.info.url %>" target="_blank">Knowledge base</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<% } %>
+		</div>
+	</div>
+	<% } %>
+	<div class="calendar-day-date"><%= day.date %></div>
+	<% if (day.training) { dayTraining(day.training); } %>
+</script>
+
+<div class="plan">
+	<div class="plan-settings">
+		<div class="content js-settings" style="display: none;"></div>
+		<a class="toggler js-settings-toggler"></a>
+	</div>
+
+
+
+	<div id="calendar1"></div>
+
+</div>
+
+<script type="text/javascript">
+	var require = {
+		baseUrl: '/res/js/modules/',
+		paths: {
+			text: 'require/text',
+			async: 'require/async',
+			font: 'require/font',
+			goog: 'require/goog',
+			image: 'require/image',
+			json: 'require/json',
+			noext: 'require/noext',
+			propertyParser : 'require/propertyParser',
+
+			'underscore': '/res/js/lib/underscore-1.4.3.min',
+			'underscore-mixin': '/res/js/gipis.underscore.mixin',
+			'jquery': '/res/js/lib/jquery.1.8.3.min',
+			'jquery-document': '/res/js/vendor/jquery.document',
+			'jquery-dimension': '/res/js/vendor/jquery.dimension',
+			'jquery-ui': '/res/js/lib/jquery-ui-1.9.0.custom.min',
+			'moment': '/res/js/lib/moment',
+			'ko': '/res/js/lib/knockout.2.2.0.min',
+			'ko-custom': 'lib/ko-custom',
+			'old': '/media/?g=default_js'
+		},
+		shim: {
+			'underscore': {
+				exports: '_'
+			},
+			'underscore-mixin': ['underscore'],
+			'jquery': {
+				exports: '$'
+			},
+			'jquery-document': {
+				exports: '$'
+			},
+			'jquery-dimension': {
+				exports: '$'
+			},
+			'ko': {
+				exports: 'ko'
+			},
+			'ko-custom' : {
+				deps: ['ko'],
+				exports: 'ko,mapping'
+			},
+			'old': {
+				exports: 'document.gipis.api'
+			}
+		},
+		config: {
+			'plan/calendar': {
+				elem: '#calendar1'
+			}
+		},
+		urlArgs: 'version=10' + new Date().getTime(),
+		deps: ['plan/calendar', 'json!' + url.me, 'json!' + url.plan, 'json!' + url.activities],
+		callback: function (Calendar, me, plan, activities) {
+			var isOwn = (plan.user.id == me.id);
+
+			var calendar = new Calendar('#calendar1', me, activities);
+			calendar.render(plan);
+			calendar.init();
+
+			var $settings = $('.js-settings'),
+				$toggler = $('.js-settings-toggler');
+
+			if (!isOwn) {
+				$settings.remove();
+				$toggler.remove();
+			} else {
+				$settings.on('click', '.js-settings-closer', function () {
+					$toggler.removeClass('is-active');
+					$settings.slideUp();
+				});
+
+				$toggler.click(function (event) {
+					event.preventDefault();
+					if ($settings.data('initialized')) {
+						$toggler.toggleClass('is-active');
+						$settings.slideToggle();
+					} else if (!$toggler.hasClass('is-loading')) {
+						$toggler.addClass('is-loading');
+						requirejs(['plan/settings'], function (Settings) {
+							document.planSettings = new Settings(plan.settings);
+							var template = $('#t-plan-settings').html(),
+								subscription = document.planSettings.isReady.subscribe(function () {
+									$settings.data('initialized', true);
+									$toggler.removeClass('is-loading').click();
+									subscription.dispose();
+								});
+							document.planSettings.updated.subscribe(function (value) {
+								// close settings
+								$toggler.click();
+								// reload plan
+								$.get(url.plan, calendar.render, 'json');
+							});
+							$settings.html(template);
+							ko.applyBindings(document.planSettings, $settings.get(0));
+						});
+					}
+				});
+			}
+
+
+
+			$('body').on('click', '.js-setup_goal', function (event) {
+				event.preventDefault();
+				if (!document.goalForm) {
+					document.goalForm = new SetupGoalPopup({
+						success: function () {
+							// reset goal form
+							document.goalForm.handler.resetGoalSporty();
+							// close settings
+							$toggler.click();
+							// reload plan
+							$.get(url.plan, calendar.render, 'json').success(function (plan) {
+								if (document.planSettings) {
+									document.planSettings._setSettings(plan.settings);
+								}
+							});
+						}
+					});
+				}
+                document.goalForm.goalSpecified = true;
+				document.goalForm.show();
+			});
+
+			document.gipis.api.getCurrentPlan();
+		}
+	};
+</script>
+<script type="text/javascript" src="/res/js/modules/require.js"></script>
+
+
+					</div>
+					<div class="l-col3">
+						
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+		</div>
+		
+<div class="superoverlay" style="display: none">
+	<div class="inner">
+		<div class="plan-summary"></div>
+		<div class="info">
+			<p>You've skipped the "Building up" phase, so the final date has changed. <br />
+				You may set it back in settings.</p>
+			<button class="js-close">OK, I got it</button>
+			<a class="js-settings-button settings-button" href="#"></a>
+		</div>
+	</div>
+</div>
+<div class="shareoverlay" style="display: none">
+	<div class="form">
+		<h3>Say something:</h3>
+		<textarea class="js-field" placeholder="Say something beautiful about this..."></textarea>
+		<button class="is-ok js-ok">Post</button>
+		<a href="#" class="close js-close"></a>
+	</div>
+</div>
+
+	</div>
+	
+		<div class="l-footer">
+	<div class="l-i-footer"></div>
+	<div class="l-footer_bg"></div>
+</div>	
+	
+	<div class="b-overlay_semi_white hidden" id="js-overlay_semi_white"></div>
+</body>
+</html>
